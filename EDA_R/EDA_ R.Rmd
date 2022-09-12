@@ -2,7 +2,10 @@
 title: "EDA with R"
 author: "Maria A Ginorio"
 date: "9/11/2022"
-output: pdf_document
+output:
+  word_document: default
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}

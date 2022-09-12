@@ -352,17 +352,72 @@ Employees & 0 & 1 & 271.29 & 1916.18 & 1.0e+00 & 21.00 & 4.500e+01 &
   \FunctionTok{group\_by}\NormalTok{(Industry) }\SpecialCharTok{\%\textgreater{}\%} 
   \FunctionTok{select}\NormalTok{(Industry, Employees) }\SpecialCharTok{\%\textgreater{}\%}
   \FunctionTok{ggplot}\NormalTok{(}\AttributeTok{mapping=}\FunctionTok{aes}\NormalTok{(}\AttributeTok{x=}\NormalTok{Industry, }\AttributeTok{y=}\NormalTok{Employees)) }\SpecialCharTok{+}
-  \FunctionTok{geom\_boxplot}\NormalTok{(}\AttributeTok{outlier.shape=}\ConstantTok{NA}\NormalTok{) }\SpecialCharTok{+}
-  \FunctionTok{theme}\NormalTok{(}\AttributeTok{axis.text.x =} \FunctionTok{element\_text}\NormalTok{(}\AttributeTok{angle =} \DecValTok{90}\NormalTok{, }\AttributeTok{hjust =} \DecValTok{1}\NormalTok{)) }\SpecialCharTok{+}
-  \FunctionTok{coord\_cartesian}\NormalTok{(}\AttributeTok{ylim =} \FunctionTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{1500}\NormalTok{))}
+  \FunctionTok{geom\_boxplot}\NormalTok{(}\AttributeTok{outlier.color=}\StringTok{"red"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{coord\_flip}\NormalTok{() }\SpecialCharTok{+}
+  \FunctionTok{geom\_hline}\NormalTok{(}\AttributeTok{yintercept =} \FunctionTok{median}\NormalTok{(NY\_state}\SpecialCharTok{$}\NormalTok{Employees),}
+             \AttributeTok{color=}\StringTok{"steelblue"}\NormalTok{,}
+             \AttributeTok{linetype=}\StringTok{"dashed"}\NormalTok{) }\SpecialCharTok{+} 
+  \FunctionTok{scale\_y\_log10}\NormalTok{() }\SpecialCharTok{+} 
+  \FunctionTok{xlab}\NormalTok{(}\StringTok{"Number of Employees"}\NormalTok{) }\SpecialCharTok{+} 
+  \FunctionTok{ylab}\NormalTok{(}\StringTok{"Industry"}\NormalTok{) }\SpecialCharTok{+} 
+  \FunctionTok{ggtitle}\NormalTok{(}\AttributeTok{label =} \StringTok{"Number of  Employees By Industry In NY"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
 \includegraphics{EDA_-R_files/figure-latex/unnamed-chunk-9-1.pdf}
 
-\textbf{\#\#} Question 3 Now imagine you work for an investor and want
-to see which industries generate the most revenue per employee. Create a
-chart that makes this information clear. Once again, the distribution
-per industry should be shown. ```\{r\}\# Answer Question 3 here```
+\hypertarget{question-3}{%
+\paragraph{Question 3}\label{question-3}}
+
+Now imagine you work for an investor and want to see which industries
+generate the most revenue per employee. Create a chart that makes this
+information clear. Once again, the distribution per industry should be
+shown.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{industry\_dist }\OtherTok{\textless{}{-}}\NormalTok{ inc\_df }\SpecialCharTok{\%\textgreater{}\%} 
+  \FunctionTok{select}\NormalTok{(Revenue, Industry)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{ggplot}\NormalTok{(industry\_dist, }\FunctionTok{aes}\NormalTok{(Revenue)) }\SpecialCharTok{+} 
+  \FunctionTok{geom\_histogram}\NormalTok{(}\FunctionTok{aes}\NormalTok{(}\AttributeTok{x=}\NormalTok{Revenue, }\AttributeTok{y =}\NormalTok{ ..density..), }
+                 \AttributeTok{colour =} \DecValTok{4}\NormalTok{, }\AttributeTok{bins =} \DecValTok{30}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{geom\_density}\NormalTok{(}\FunctionTok{aes}\NormalTok{(}\AttributeTok{x=}\NormalTok{Revenue), }\AttributeTok{color =} \StringTok{"red"}\NormalTok{) }\SpecialCharTok{+}
+  \FunctionTok{facet\_wrap}\NormalTok{(}\SpecialCharTok{\textasciitilde{}}\NormalTok{Industry, }\AttributeTok{scales =} \StringTok{"free"}\NormalTok{) }\SpecialCharTok{+} 
+  \FunctionTok{ggtitle}\NormalTok{(}\AttributeTok{label =} \StringTok{"Distributions by Industry"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{EDA_-R_files/figure-latex/unnamed-chunk-11-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\#ggsave("industry\_distribution.png")}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{inc\_df }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{group\_by}\NormalTok{(Industry) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{summarize}\NormalTok{(}\AttributeTok{total\_rev =} \FunctionTok{sum}\NormalTok{(Revenue), }
+            \AttributeTok{total\_emp =} \FunctionTok{sum}\NormalTok{(Employees), }
+            \AttributeTok{rev\_per\_emp =}\NormalTok{ total\_rev}\SpecialCharTok{/}\NormalTok{total\_emp) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{arrange}\NormalTok{(}\FunctionTok{desc}\NormalTok{(rev\_per\_emp)) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{na.omit}\NormalTok{() }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{ggplot}\NormalTok{(}\FunctionTok{aes}\NormalTok{(}\AttributeTok{x=}\FunctionTok{reorder}\NormalTok{(Industry, rev\_per\_emp), }\AttributeTok{y=}\NormalTok{rev\_per\_emp)) }\SpecialCharTok{+}
+  \FunctionTok{geom\_bar}\NormalTok{(}\FunctionTok{aes}\NormalTok{(}\AttributeTok{fill =}\NormalTok{ rev\_per\_emp), }\AttributeTok{stat=}\StringTok{"identity"}\NormalTok{ ) }\SpecialCharTok{+}
+  \FunctionTok{coord\_flip}\NormalTok{() }\SpecialCharTok{+} 
+  \FunctionTok{xlab}\NormalTok{(}\StringTok{"Revenue / Employee"}\NormalTok{) }\SpecialCharTok{+} 
+  \FunctionTok{ylab}\NormalTok{(}\StringTok{"Industry"}\NormalTok{) }\SpecialCharTok{+} 
+  \FunctionTok{ggtitle}\NormalTok{(}\AttributeTok{label =} \StringTok{"Revenue Per Employee By Industry"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{EDA_-R_files/figure-latex/unnamed-chunk-13-1.pdf}
 
 \end{document}
