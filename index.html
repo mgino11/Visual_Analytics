@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Module 5</title>
+    <script type="text/javascript" src="part1.js"></script>
+    <script type="text/javascript" src="part2.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type="text/javascript">
+        var pdata = [];
+        function onReverseClicked() {
+            var txt = document.getElementById('in_txt').value;
+            var out = document.getElementById("out_txt");
+            var rev = reverseText(txt);
+            out.innerHTML = rev.length == 0 ? '' : 'Text in Reverse: ' + rev;
+        }
+        function onMulti20Clicked() {
+            var num = document.getElementById('in_num').value;
+            var out = document.getElementById("out_tbl");
+            out.innerHTML = docWriteMulti20Table(num);
+        }
+        function onPageLoad() {
+            var presidents = document.getElementById("presidents");
+            d3.text("presidents.csv", { crossOrigin: "anonymous" }).then(function (csv) {
+                presidents.innerHTML = csvParseAsTable(csv);
+                d3.csvParseRows(csv, function (d, i) {
+                    if (i > 0) {
+                        pdata[d[0]] = d;
+                    }
+                });
+            });
+        }
+        function onPresidentNameClicked() {
+            var out = document.getElementById("out_phv");
+            var pname = document.getElementById('in_pname').value;
+            var out_html = '';
+            if (pname != undefined && pname.length > 0) {
+                var d = pdata[pname];
+                if (d != undefined) {
+                    out_html = '<table><tr><th>President</th><th>Height</th><th>Weight</th></tr>' +
+                        `<tr><td>${pname}</td><td>${d[1]}</td><td>${d[2]}</td></tr>` + '</table>';
+                }
+            }
+            out.innerHTML = out_html;
+        }
+    </script>
+</head>
+
+<body onload="onPageLoad()">
+<u>Author:</u>
+<b>Maria A. Ginorio</b>
+<h3>Part 1:</h3>
+<form>
+    Enter text to get it reversed:
+    <div>
+        <input id="in_txt" type="text" />
+        <input type="button" value="Go" onclick="onReverseClicked();">
+        <div id="out_txt"></div>
+    </div>
+    <br />
+    Enter a number to get 20 multiples:
+    <div>
+        <input id="in_num" type="number" />
+        <input type="button" value="Go" onclick="onMulti20Clicked();">
+        <div id="out_tbl"></div>
+    </div>
+</form>
+<h3>Part 2:</h3>
+<p>
+    <b>NOTE:</b>This page should work properly in IE.
+<div>
+    Other browsers raise error: <i>Fetch API cannot load file:///... URL scheme must be "http" or "https" for CORS request.</i>
+</div>
+</p>
+<div id="presidents"></div>
+<br />
+<form>
+    Enter name of a President to show height and weight:
+    <div>
+        <input id="in_pname" type="text">
+        <input type="button" value="Go" onclick="onPresidentNameClicked()">
+        <div id="out_phv"></div>
+    </div>
+</form>
+</body>
+
+</html>
