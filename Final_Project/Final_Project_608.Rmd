@@ -1,0 +1,125 @@
+---
+title: "Final_Project_608"
+author: "Maria A Ginorio"
+date: "11/12/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Data analysis libraries
+library(tidyverse)
+library(magrittr) # extended pipe functionality
+library(lubridate) # dealing with date objects
+library(readxl) # for reading Excel files
+library(skimr)
+```
+
+## Solar Light Consumption
+
+The use of renewable energy has been increasing over the past few years as the cost of traditional energy sources has risen and the environmental concerns about the use of fossil fuels have grown. Renewable energy is energy that comes from natural sources that are replenished on a human timescale, such as solar, wind, water, and geothermal.
+
+There are many reasons why the use of renewable energy is growing. One reason is that renewable energy is becoming more cost-competitive with traditional energy sources. The cost of renewable energy technologies has fallen dramatically in recent years, and is expected to continue to fall. The cost of solar photovoltaic (PV) panels has fallen by around 90% since 2010, and the cost of wind turbines has fallen by around 50% since the early 2000s. As the cost of renewable energy falls, the cost of traditional energy sources is rising. This is due to the declining quality of traditional energy sources and the rising cost of environmental regulations.
+
+Another reason for the growth of renewable energy is the increasing concern about the environmental impacts of fossil fuels. The burning of fossil fuels releases greenhouse gases, which are causing the Earth's climate to change. This is leading to more extreme weather events, such as heatwaves, droughts, and floods. The use of renewable energy can help to reduce the emissions of greenhouse gases and slow the rate of climate change.
+
+The growth of renewable energy is also being driven by government policies. Many governments are setting targets for the use of renewable energy, and providing financial incentives, such as subsidies and tax breaks, to encourage the use of renewable energy. The use of renewable energy is expected to continue to grow in the future. This is due to the falling cost of renewable energy, the increasing concerns about the environment, and the support of government policies.
+
+## Data Documentation
+
+We start by utilizing the data sets obtained by SEDS (U.S Energy Information Administration) [SEDS](https://www.eia.gov/renewable/data.php). We will utilize 3 datasets related to the Renewable Energy Consumption by sector section.
+
+-   Dataset 1: Residential
+
+-   Dataset 3: Commercial
+
+-   Dataset 3: Industrial
+
+Then we will proceed to change the format of the data to a longer format using the tidyverse package.
+
+```{r data2}
+df1 <- Processed_Renewable_Sector %>% 
+  rename(Year = `Annual Total`) %>% 
+  mutate(across(everything(), na_if, "Not Available")) %>% 
+  mutate(across(everything(), na_if, "No Data Reported"))
+
+
+```
+
+```{r}
+df1 <- df1 %>% 
+  pivot_longer(
+    cols = starts_with("Geothermal"),
+    names_to = "Geothermal",
+    values_to = "BTUs",
+    names_prefix = "Geothermal",
+    values_drop_na = F 
+  )
+```
+
+```{r}
+df1 <- df1 %>% 
+  pivot_longer(
+    cols = starts_with("Solar"),
+    names_to = "Solar",
+    values_to = "BTUs_2",
+    names_prefix = "Solar",
+    values_drop_na = F 
+  )
+  
+```
+
+```{r}
+df1 <- df1 %>% 
+  pivot_longer(
+    cols = starts_with("Wind"),
+    names_to = "Wind",
+    values_to = "BTUs_3",
+    names_prefix = "Wind",
+    values_drop_na = F 
+  )
+```
+
+```{r}
+df1 <- df1 %>% 
+  mutate(across(c(`Hydroelectric Commercial`), as.numeric)) %>% 
+  pivot_longer(
+    cols = starts_with("Hydroelectric"),
+    names_to = "Hydroelectric",
+    values_to = "BTUs_4",
+    names_prefix = "Hydroelectric",
+    values_drop_na = F 
+  )
+```
+
+```{r}
+df2 <- df1 %>% 
+  pivot_longer(
+    cols = c("Hydroelectric","Wind","Solar", "Geothermal" ),
+    names_to = "energy_type",
+    values_to = "source",
+    values_drop_na = F 
+  )
+```
+
+```{r}
+df2 <- df2 %>% 
+  mutate(across(c(BTUs, BTUs_2, BTUs_3), as.numeric)) %>% 
+  pivot_longer(
+    cols = BTUs:BTUs_4,
+    names_to = "data_no",
+    values_to = "data",
+    values_drop_na = F 
+  )
+```
+
+```{r}
+pgen<- df2 %>% 
+  select(-data_no, -`Wood Residential`) %>% 
+  mutate(data = replace_na(data, 0))
+```
+
+```{r}
+#write_csv(pgen, "processed_renewals_energy.csv")
+```
