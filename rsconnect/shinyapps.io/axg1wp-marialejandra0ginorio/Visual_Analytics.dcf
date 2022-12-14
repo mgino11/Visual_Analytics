@@ -1,0 +1,14 @@
+name: Visual_Analytics
+title: Visual_Analytics
+username:
+account: axg1wp-marialejandra0ginorio
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7256036
+bundleId: 6385206
+url: https://axg1wp-marialejandra0ginorio.shinyapps.io/Visual_Analytics/
+when: 1665342343.47284
+lastSyncTime: 1665342343.47284
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: images/crudemortality_2010|README.md|EDA_R

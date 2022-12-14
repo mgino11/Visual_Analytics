@@ -1,0 +1,1023 @@
+Year,source,energy_type,total_btu,full_source,highlight_col,name_lab
+1949,Commercial,Geothermal,17096.664,"Geothermal, Commercial",other,NA
+1949,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1949,Commercial,Solar,17096.664,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1949,Commercial,Wind,22795.552,"Wind, Commercial",other,NA
+1949,Industrial,Geothermal,17096.664,"Geothermal, Industrial",other,NA
+1949,Industrial,Hydroelectric,3625.7760000000003,"Hydroelectric, Industrial",other,NA
+1949,Industrial,Solar,17096.664,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1949,Industrial,Wind,22795.552,"Wind, Industrial",other,NA
+1949,Residential,Geothermal,17096.664,"Geothermal, Residential",other,NA
+1949,Residential,Solar,17096.664,"Solar, Residential","Solar, Residential","Solar, Residential"
+1949,Transportation,Geothermal,17096.664,"Geothermal, Transportation",other,NA
+1949,Transportation,Hydroelectric,64760.88,"Hydroelectric, Transportation",other,NA
+1949,Transportation,Solar,17096.664,"Solar, Transportation",other,NA
+1949,Transportation,Wind,22795.552,"Wind, Transportation",other,NA
+1950,Commercial,Geothermal,16984.932,"Geothermal, Commercial",other,NA
+1950,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1950,Commercial,Solar,16984.932,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1950,Commercial,Wind,22646.576,"Wind, Commercial",other,NA
+1950,Industrial,Geothermal,16984.932,"Geothermal, Industrial",other,NA
+1950,Industrial,Hydroelectric,3331.008,"Hydroelectric, Industrial",other,NA
+1950,Industrial,Solar,16984.932,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1950,Industrial,Wind,22646.576,"Wind, Industrial",other,NA
+1950,Residential,Geothermal,16984.932,"Geothermal, Residential",other,NA
+1950,Residential,Solar,16984.932,"Solar, Residential","Solar, Residential","Solar, Residential"
+1950,Transportation,Geothermal,16984.932,"Geothermal, Transportation",other,NA
+1950,Transportation,Hydroelectric,64608.72,"Hydroelectric, Transportation",other,NA
+1950,Transportation,Solar,16984.932,"Solar, Transportation",other,NA
+1950,Transportation,Wind,22646.576,"Wind, Transportation",other,NA
+1951,Commercial,Geothermal,17085.54,"Geothermal, Commercial",other,NA
+1951,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1951,Commercial,Solar,17085.54,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1951,Commercial,Wind,22780.72,"Wind, Commercial",other,NA
+1951,Industrial,Geothermal,17085.54,"Geothermal, Industrial",other,NA
+1951,Industrial,Hydroelectric,3028.656,"Hydroelectric, Industrial",other,NA
+1951,Industrial,Solar,17085.54,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1951,Industrial,Wind,22780.72,"Wind, Industrial",other,NA
+1951,Residential,Geothermal,17085.54,"Geothermal, Residential",other,NA
+1951,Residential,Solar,17085.54,"Solar, Residential","Solar, Residential","Solar, Residential"
+1951,Transportation,Geothermal,17085.54,"Geothermal, Transportation",other,NA
+1951,Transportation,Hydroelectric,65313.504,"Hydroelectric, Transportation",other,NA
+1951,Transportation,Solar,17085.54,"Solar, Transportation",other,NA
+1951,Transportation,Wind,22780.72,"Wind, Transportation",other,NA
+1952,Commercial,Geothermal,17589.744,"Geothermal, Commercial",other,NA
+1952,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1952,Commercial,Solar,17589.744,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1952,Commercial,Wind,23452.992,"Wind, Commercial",other,NA
+1952,Industrial,Geothermal,17589.744,"Geothermal, Industrial",other,NA
+1952,Industrial,Hydroelectric,2953.8239999999996,"Hydroelectric, Industrial",other,NA
+1952,Industrial,Solar,17589.744,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1952,Industrial,Wind,23452.992,"Wind, Industrial",other,NA
+1952,Residential,Geothermal,17589.744,"Geothermal, Residential",other,NA
+1952,Residential,Solar,17589.744,"Solar, Residential","Solar, Residential","Solar, Residential"
+1952,Transportation,Geothermal,17589.744,"Geothermal, Transportation",other,NA
+1952,Transportation,Hydroelectric,67405.152,"Hydroelectric, Transportation",other,NA
+1952,Transportation,Solar,17589.744,"Solar, Transportation",other,NA
+1952,Transportation,Wind,23452.992,"Wind, Transportation",other,NA
+1953,Commercial,Geothermal,16954.308,"Geothermal, Commercial",other,NA
+1953,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1953,Commercial,Solar,16954.308,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1953,Commercial,Wind,22605.744000000002,"Wind, Commercial",other,NA
+1953,Industrial,Geothermal,16954.308,"Geothermal, Industrial",other,NA
+1953,Industrial,Hydroelectric,2712.288,"Hydroelectric, Industrial",other,NA
+1953,Industrial,Solar,16954.308,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1953,Industrial,Wind,22605.744000000002,"Wind, Industrial",other,NA
+1953,Residential,Geothermal,16954.308,"Geothermal, Residential",other,NA
+1953,Residential,Solar,16954.308,"Solar, Residential","Solar, Residential","Solar, Residential"
+1953,Transportation,Geothermal,16954.308,"Geothermal, Transportation",other,NA
+1953,Transportation,Hydroelectric,65104.944,"Hydroelectric, Transportation",other,NA
+1953,Transportation,Solar,16954.308,"Solar, Transportation",other,NA
+1953,Transportation,Wind,22605.744000000002,"Wind, Transportation",other,NA
+1954,Commercial,Geothermal,16317.264000000001,"Geothermal, Commercial",other,NA
+1954,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1954,Commercial,Solar,16317.264000000001,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1954,Commercial,Wind,21756.352,"Wind, Commercial",other,NA
+1954,Industrial,Geothermal,16317.264000000001,"Geothermal, Industrial",other,NA
+1954,Industrial,Hydroelectric,2672.544,"Hydroelectric, Industrial",other,NA
+1954,Industrial,Solar,16317.264000000001,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1954,Industrial,Wind,21756.352,"Wind, Industrial",other,NA
+1954,Residential,Geothermal,16317.264000000001,"Geothermal, Residential",other,NA
+1954,Residential,Solar,16317.264000000001,"Solar, Residential","Solar, Residential","Solar, Residential"
+1954,Transportation,Geothermal,16317.264000000001,"Geothermal, Transportation",other,NA
+1954,Transportation,Hydroelectric,62596.512,"Hydroelectric, Transportation",other,NA
+1954,Transportation,Solar,16317.264000000001,"Solar, Transportation",other,NA
+1954,Transportation,Wind,21756.352,"Wind, Transportation",other,NA
+1955,Commercial,Geothermal,16318.127999999999,"Geothermal, Commercial",other,NA
+1955,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1955,Commercial,Solar,16318.127999999999,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1955,Commercial,Wind,21757.504,"Wind, Commercial",other,NA
+1955,Industrial,Geothermal,16318.127999999999,"Geothermal, Industrial",other,NA
+1955,Industrial,Hydroelectric,1831.152,"Hydroelectric, Industrial",other,NA
+1955,Industrial,Solar,16318.127999999999,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1955,Industrial,Wind,21757.504,"Wind, Industrial",other,NA
+1955,Residential,Geothermal,16318.127999999999,"Geothermal, Residential",other,NA
+1955,Residential,Solar,16318.127999999999,"Solar, Residential","Solar, Residential","Solar, Residential"
+1955,Transportation,Geothermal,16318.127999999999,"Geothermal, Transportation",other,NA
+1955,Transportation,Hydroelectric,63441.36,"Hydroelectric, Transportation",other,NA
+1955,Transportation,Solar,16318.127999999999,"Solar, Transportation",other,NA
+1955,Transportation,Wind,21757.504,"Wind, Transportation",other,NA
+1956,Commercial,Geothermal,17216.532,"Geothermal, Commercial",other,NA
+1956,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1956,Commercial,Solar,17216.532,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1956,Commercial,Wind,22955.376,"Wind, Commercial",other,NA
+1956,Industrial,Geothermal,17216.532,"Geothermal, Industrial",other,NA
+1956,Industrial,Hydroelectric,1764.0479999999998,"Hydroelectric, Industrial",other,NA
+1956,Industrial,Solar,17216.532,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1956,Industrial,Wind,22955.376,"Wind, Industrial",other,NA
+1956,Residential,Geothermal,17216.532,"Geothermal, Residential",other,NA
+1956,Residential,Solar,17216.532,"Solar, Residential","Solar, Residential","Solar, Residential"
+1956,Transportation,Geothermal,17216.532,"Geothermal, Transportation",other,NA
+1956,Transportation,Hydroelectric,67102.08,"Hydroelectric, Transportation",other,NA
+1956,Transportation,Solar,17216.532,"Solar, Transportation",other,NA
+1956,Transportation,Wind,22955.376,"Wind, Transportation",other,NA
+1957,Commercial,Geothermal,18187.356,"Geothermal, Commercial",other,NA
+1957,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1957,Commercial,Solar,18187.356,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1957,Commercial,Wind,24249.808,"Wind, Commercial",other,NA
+1957,Industrial,Geothermal,18187.356,"Geothermal, Industrial",other,NA
+1957,Industrial,Hydroelectric,1705.008,"Hydroelectric, Industrial",other,NA
+1957,Industrial,Solar,18187.356,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1957,Industrial,Wind,24249.808,"Wind, Industrial",other,NA
+1957,Residential,Geothermal,18187.356,"Geothermal, Residential",other,NA
+1957,Residential,Solar,18187.356,"Solar, Residential","Solar, Residential","Solar, Residential"
+1957,Transportation,Geothermal,18187.356,"Geothermal, Transportation",other,NA
+1957,Transportation,Hydroelectric,71044.416,"Hydroelectric, Transportation",other,NA
+1957,Transportation,Solar,18187.356,"Solar, Transportation",other,NA
+1957,Transportation,Wind,24249.808,"Wind, Transportation",other,NA
+1958,Commercial,Geothermal,19103.604,"Geothermal, Commercial",other,NA
+1958,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1958,Commercial,Solar,19103.604,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1958,Commercial,Wind,25471.472,"Wind, Commercial",other,NA
+1958,Industrial,Geothermal,19103.604,"Geothermal, Industrial",other,NA
+1958,Industrial,Hydroelectric,1783.7759999999998,"Hydroelectric, Industrial",other,NA
+1958,Industrial,Solar,19103.604,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1958,Industrial,Wind,25471.472,"Wind, Industrial",other,NA
+1958,Residential,Geothermal,19103.604,"Geothermal, Residential",other,NA
+1958,Residential,Solar,19103.604,"Solar, Residential","Solar, Residential","Solar, Residential"
+1958,Transportation,Geothermal,19103.604,"Geothermal, Transportation",other,NA
+1958,Transportation,Hydroelectric,74630.64,"Hydroelectric, Transportation",other,NA
+1958,Transportation,Solar,19103.604,"Solar, Transportation",other,NA
+1958,Transportation,Wind,25471.472,"Wind, Transportation",other,NA
+1959,Commercial,Geothermal,18581.579999999998,"Geothermal, Commercial",other,NA
+1959,Commercial,Hydroelectric,0,"Hydroelectric, Commercial",other,NA
+1959,Commercial,Solar,18581.579999999998,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1959,Commercial,Wind,24775.44,"Wind, Commercial",other,NA
+1959,Industrial,Geothermal,18581.579999999998,"Geothermal, Industrial",other,NA
+1959,Industrial,Hydroelectric,1776.144,"Hydroelectric, Industrial",other,NA
+1959,Industrial,Solar,18581.579999999998,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1959,Industrial,Wind,24775.44,"Wind, Industrial",other,NA
+1959,Residential,Geothermal,18581.579999999998,"Geothermal, Residential",other,NA
+1959,Residential,Solar,18581.579999999998,"Solar, Residential","Solar, Residential","Solar, Residential"
+1959,Transportation,Geothermal,18581.579999999998,"Geothermal, Transportation",other,NA
+1959,Transportation,Hydroelectric,72550.176,"Hydroelectric, Transportation",other,NA
+1959,Transportation,Solar,18581.579999999998,"Solar, Transportation",other,NA
+1959,Transportation,Wind,24775.44,"Wind, Transportation",other,NA
+1960,Commercial,Geothermal,19295.7,"Geothermal, Commercial",other,NA
+1960,Commercial,Hydroelectric,4.308,"Hydroelectric, Commercial",other,NA
+1960,Commercial,Solar,19298.931,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1960,Commercial,Wind,25731.908,"Wind, Commercial",other,NA
+1960,Industrial,Geothermal,19295.7,"Geothermal, Industrial",other,NA
+1960,Industrial,Hydroelectric,1867.092,"Hydroelectric, Industrial",other,NA
+1960,Industrial,Solar,19298.931,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1960,Industrial,Wind,25731.908,"Wind, Industrial",other,NA
+1960,Residential,Geothermal,19295.7,"Geothermal, Residential",other,NA
+1960,Residential,Solar,19298.931,"Solar, Residential","Solar, Residential","Solar, Residential"
+1960,Transportation,Geothermal,19308.624,"Geothermal, Transportation",other,NA
+1960,Transportation,Hydroelectric,75324.324,"Hydroelectric, Transportation",other,NA
+1960,Transportation,Solar,19298.931,"Solar, Transportation",other,NA
+1960,Transportation,Wind,25731.908,"Wind, Transportation",other,NA
+1961,Commercial,Geothermal,19877.556,"Geothermal, Commercial",other,NA
+1961,Commercial,Hydroelectric,12.011999999999999,"Hydroelectric, Commercial",other,NA
+1961,Commercial,Solar,19886.565,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1961,Commercial,Wind,26515.42,"Wind, Commercial",other,NA
+1961,Industrial,Geothermal,19877.556,"Geothermal, Industrial",other,NA
+1961,Industrial,Hydroelectric,1732.1399999999999,"Hydroelectric, Industrial",other,NA
+1961,Industrial,Solar,19886.565,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1961,Industrial,Wind,26515.42,"Wind, Industrial",other,NA
+1961,Residential,Geothermal,19877.556,"Geothermal, Residential",other,NA
+1961,Residential,Solar,19886.565,"Solar, Residential","Solar, Residential","Solar, Residential"
+1961,Transportation,Geothermal,19913.592,"Geothermal, Transportation",other,NA
+1961,Transportation,Hydroelectric,77802.108,"Hydroelectric, Transportation",other,NA
+1961,Transportation,Solar,19886.565,"Solar, Transportation",other,NA
+1961,Transportation,Wind,26515.42,"Wind, Transportation",other,NA
+1962,Commercial,Geothermal,21793.692,"Geothermal, Commercial",other,NA
+1962,Commercial,Hydroelectric,12.732,"Hydroelectric, Commercial",other,NA
+1962,Commercial,Solar,21803.241,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1962,Commercial,Wind,29070.988,"Wind, Commercial",other,NA
+1962,Industrial,Geothermal,21793.692,"Geothermal, Industrial",other,NA
+1962,Industrial,Hydroelectric,1740.2520000000002,"Hydroelectric, Industrial",other,NA
+1962,Industrial,Solar,21803.241,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1962,Industrial,Wind,29070.988,"Wind, Industrial",other,NA
+1962,Residential,Geothermal,21793.692,"Geothermal, Residential",other,NA
+1962,Residential,Solar,21803.241,"Solar, Residential","Solar, Residential","Solar, Residential"
+1962,Transportation,Geothermal,21831.888,"Geothermal, Transportation",other,NA
+1962,Transportation,Hydroelectric,85459.98000000001,"Hydroelectric, Transportation",other,NA
+1962,Transportation,Solar,21803.241,"Solar, Transportation",other,NA
+1962,Transportation,Wind,29070.988,"Wind, Transportation",other,NA
+1963,Commercial,Geothermal,21256.260000000002,"Geothermal, Commercial",other,NA
+1963,Commercial,Hydroelectric,21.12,"Hydroelectric, Commercial",other,NA
+1963,Commercial,Solar,21272.100000000002,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1963,Commercial,Wind,28362.8,"Wind, Commercial",other,NA
+1963,Industrial,Geothermal,21256.260000000002,"Geothermal, Industrial",other,NA
+1963,Industrial,Hydroelectric,1648.992,"Hydroelectric, Industrial",other,NA
+1963,Industrial,Solar,21272.100000000002,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1963,Industrial,Wind,28362.8,"Wind, Industrial",other,NA
+1963,Residential,Geothermal,21256.260000000002,"Geothermal, Residential",other,NA
+1963,Residential,Solar,21272.100000000002,"Solar, Residential","Solar, Residential","Solar, Residential"
+1963,Transportation,Geothermal,21319.62,"Geothermal, Transportation",other,NA
+1963,Transportation,Hydroelectric,83418.288,"Hydroelectric, Transportation",other,NA
+1963,Transportation,Solar,21272.100000000002,"Solar, Transportation",other,NA
+1963,Transportation,Wind,28362.8,"Wind, Transportation",other,NA
+1964,Commercial,Geothermal,22635.768,"Geothermal, Commercial",other,NA
+1964,Commercial,Hydroelectric,25.584000000000003,"Hydroelectric, Commercial",other,NA
+1964,Commercial,Solar,22654.956,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1964,Commercial,Wind,30206.608,"Wind, Commercial",other,NA
+1964,Industrial,Geothermal,22635.768,"Geothermal, Industrial",other,NA
+1964,Industrial,Hydroelectric,1646.6399999999999,"Hydroelectric, Industrial",other,NA
+1964,Industrial,Solar,22654.956,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1964,Industrial,Wind,30206.608,"Wind, Industrial",other,NA
+1964,Residential,Geothermal,22635.768,"Geothermal, Residential",other,NA
+1964,Residential,Solar,22654.956,"Solar, Residential","Solar, Residential","Solar, Residential"
+1964,Transportation,Geothermal,22712.52,"Geothermal, Transportation",other,NA
+1964,Transportation,Hydroelectric,88947.59999999999,"Hydroelectric, Transportation",other,NA
+1964,Transportation,Solar,22654.956,"Solar, Transportation",other,NA
+1964,Transportation,Wind,30206.608,"Wind, Transportation",other,NA
+1965,Commercial,Geothermal,24708.924,"Geothermal, Commercial",other,NA
+1965,Commercial,Hydroelectric,23.736,"Hydroelectric, Commercial",other,NA
+1965,Commercial,Solar,24726.726,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1965,Commercial,Wind,32968.968,"Wind, Commercial",other,NA
+1965,Industrial,Geothermal,24708.924,"Geothermal, Industrial",other,NA
+1965,Industrial,Hydroelectric,1596.072,"Hydroelectric, Industrial",other,NA
+1965,Industrial,Solar,24726.726,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1965,Industrial,Wind,32968.968,"Wind, Industrial",other,NA
+1965,Residential,Geothermal,24708.924,"Geothermal, Residential",other,NA
+1965,Residential,Solar,24726.726,"Solar, Residential","Solar, Residential","Solar, Residential"
+1965,Transportation,Geothermal,24780.131999999998,"Geothermal, Transportation",other,NA
+1965,Transportation,Hydroelectric,97287.09599999999,"Hydroelectric, Transportation",other,NA
+1965,Transportation,Solar,24726.726,"Solar, Transportation",other,NA
+1965,Transportation,Wind,32968.968,"Wind, Transportation",other,NA
+1966,Commercial,Geothermal,24738.228000000003,"Geothermal, Commercial",other,NA
+1966,Commercial,Hydroelectric,23.496,"Hydroelectric, Commercial",other,NA
+1966,Commercial,Solar,24755.850000000002,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1966,Commercial,Wind,33007.8,"Wind, Commercial",other,NA
+1966,Industrial,Geothermal,24738.228000000003,"Geothermal, Industrial",other,NA
+1966,Industrial,Hydroelectric,1614.12,"Hydroelectric, Industrial",other,NA
+1966,Industrial,Solar,24755.850000000002,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1966,Industrial,Wind,33007.8,"Wind, Industrial",other,NA
+1966,Residential,Geothermal,24738.228000000003,"Geothermal, Residential",other,NA
+1966,Residential,Solar,24755.850000000002,"Solar, Residential","Solar, Residential","Solar, Residential"
+1966,Transportation,Geothermal,24808.716,"Geothermal, Transportation",other,NA
+1966,Transportation,Hydroelectric,97385.784,"Hydroelectric, Transportation",other,NA
+1966,Transportation,Solar,24755.850000000002,"Solar, Transportation",other,NA
+1966,Transportation,Wind,33007.8,"Wind, Transportation",other,NA
+1967,Commercial,Geothermal,28159.968,"Geothermal, Commercial",other,NA
+1967,Commercial,Hydroelectric,39.599999999999994,"Hydroelectric, Commercial",other,NA
+1967,Commercial,Solar,28189.667999999998,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1967,Commercial,Wind,37586.224,"Wind, Commercial",other,NA
+1967,Industrial,Geothermal,28159.968,"Geothermal, Industrial",other,NA
+1967,Industrial,Hydroelectric,1757.376,"Hydroelectric, Industrial",other,NA
+1967,Industrial,Solar,28189.667999999998,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1967,Industrial,Wind,37586.224,"Wind, Industrial",other,NA
+1967,Residential,Geothermal,28159.968,"Geothermal, Residential",other,NA
+1967,Residential,Solar,28189.667999999998,"Solar, Residential","Solar, Residential","Solar, Residential"
+1967,Transportation,Geothermal,28278.768,"Geothermal, Transportation",other,NA
+1967,Transportation,Hydroelectric,110961.696,"Hydroelectric, Transportation",other,NA
+1967,Transportation,Solar,28189.667999999998,"Solar, Transportation",other,NA
+1967,Transportation,Wind,37586.224,"Wind, Transportation",other,NA
+1968,Commercial,Geothermal,28183.548,"Geothermal, Commercial",other,NA
+1968,Commercial,Hydroelectric,54.384,"Hydroelectric, Commercial",other,NA
+1968,Commercial,Solar,28224.336,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1968,Commercial,Wind,37632.448,"Wind, Commercial",other,NA
+1968,Industrial,Geothermal,28183.548,"Geothermal, Industrial",other,NA
+1968,Industrial,Hydroelectric,1742.6399999999999,"Hydroelectric, Industrial",other,NA
+1968,Industrial,Solar,28224.336,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1968,Industrial,Wind,37632.448,"Wind, Industrial",other,NA
+1968,Residential,Geothermal,28183.548,"Geothermal, Residential",other,NA
+1968,Residential,Solar,28224.336,"Solar, Residential","Solar, Residential","Solar, Residential"
+1968,Transportation,Geothermal,28346.699999999997,"Geothermal, Transportation",other,NA
+1968,Transportation,Hydroelectric,111100.31999999999,"Hydroelectric, Transportation",other,NA
+1968,Transportation,Solar,28224.336,"Solar, Transportation",other,NA
+1968,Transportation,Wind,37632.448,"Wind, Transportation",other,NA
+1969,Commercial,Geothermal,31775.796,"Geothermal, Commercial",other,NA
+1969,Commercial,Hydroelectric,77.064,"Hydroelectric, Commercial",other,NA
+1969,Commercial,Solar,31833.593999999997,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1969,Commercial,Wind,42444.792,"Wind, Commercial",other,NA
+1969,Industrial,Geothermal,31775.796,"Geothermal, Industrial",other,NA
+1969,Industrial,Hydroelectric,1719.624,"Hydroelectric, Industrial",other,NA
+1969,Industrial,Solar,31833.593999999997,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1969,Industrial,Wind,42444.792,"Wind, Industrial",other,NA
+1969,Residential,Geothermal,31775.796,"Geothermal, Residential",other,NA
+1969,Residential,Solar,31833.593999999997,"Solar, Residential","Solar, Residential","Solar, Residential"
+1969,Transportation,Geothermal,32006.987999999998,"Geothermal, Transportation",other,NA
+1969,Transportation,Hydroelectric,125537.688,"Hydroelectric, Transportation",other,NA
+1969,Transportation,Solar,31833.593999999997,"Solar, Transportation",other,NA
+1969,Transportation,Wind,42444.792,"Wind, Transportation",other,NA
+1970,Commercial,Geothermal,31602.564000000002,"Geothermal, Commercial",other,NA
+1970,Commercial,Hydroelectric,66.132,"Hydroelectric, Commercial",other,NA
+1970,Commercial,Solar,31652.163,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1970,Commercial,Wind,42202.884,"Wind, Commercial",other,NA
+1970,Industrial,Geothermal,31602.564000000002,"Geothermal, Industrial",other,NA
+1970,Industrial,Hydroelectric,1700.052,"Hydroelectric, Industrial",other,NA
+1970,Industrial,Solar,31652.163,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1970,Industrial,Wind,42202.884,"Wind, Industrial",other,NA
+1970,Residential,Geothermal,31602.564000000002,"Geothermal, Residential",other,NA
+1970,Residential,Solar,31652.163,"Solar, Residential","Solar, Residential","Solar, Residential"
+1970,Transportation,Geothermal,31800.96,"Geothermal, Transportation",other,NA
+1970,Transportation,Hydroelectric,124842.46800000001,"Hydroelectric, Transportation",other,NA
+1970,Transportation,Solar,31652.163,"Solar, Transportation",other,NA
+1970,Transportation,Wind,42202.884,"Wind, Transportation",other,NA
+1971,Commercial,Geothermal,33889.812000000005,"Geothermal, Commercial",other,NA
+1971,Commercial,Hydroelectric,68.868,"Hydroelectric, Commercial",other,NA
+1971,Commercial,Solar,33941.463,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1971,Commercial,Wind,45255.284,"Wind, Commercial",other,NA
+1971,Industrial,Geothermal,33889.812000000005,"Geothermal, Industrial",other,NA
+1971,Industrial,Hydroelectric,1688.6760000000002,"Hydroelectric, Industrial",other,NA
+1971,Industrial,Solar,33941.463,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1971,Industrial,Wind,45255.284,"Wind, Industrial",other,NA
+1971,Residential,Geothermal,33889.812000000005,"Geothermal, Residential",other,NA
+1971,Residential,Solar,33941.463,"Solar, Residential","Solar, Residential","Solar, Residential"
+1971,Transportation,Geothermal,34096.416000000005,"Geothermal, Transportation",other,NA
+1971,Transportation,Hydroelectric,134008.30800000002,"Hydroelectric, Transportation",other,NA
+1971,Transportation,Solar,33941.463,"Solar, Transportation",other,NA
+1971,Transportation,Wind,45255.284,"Wind, Transportation",other,NA
+1972,Commercial,Geothermal,34366.380000000005,"Geothermal, Commercial",other,NA
+1972,Commercial,Hydroelectric,180.948,"Hydroelectric, Commercial",other,NA
+1972,Commercial,Solar,34502.091,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1972,Commercial,Wind,46002.788,"Wind, Commercial",other,NA
+1972,Industrial,Geothermal,34366.380000000005,"Geothermal, Industrial",other,NA
+1972,Industrial,Hydroelectric,1833.1080000000002,"Hydroelectric, Industrial",other,NA
+1972,Industrial,Solar,34502.091,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1972,Industrial,Wind,46002.788,"Wind, Industrial",other,NA
+1972,Residential,Geothermal,34366.380000000005,"Geothermal, Residential",other,NA
+1972,Residential,Solar,34502.091,"Solar, Residential","Solar, Residential","Solar, Residential"
+1972,Transportation,Geothermal,34909.224,"Geothermal, Transportation",other,NA
+1972,Transportation,Hydroelectric,135994.30800000002,"Hydroelectric, Transportation",other,NA
+1972,Transportation,Solar,34502.091,"Solar, Transportation",other,NA
+1972,Transportation,Wind,46002.788,"Wind, Transportation",other,NA
+1973,Commercial,Geothermal,34337.376000000004,"Geothermal, Commercial",other,NA
+1973,Commercial,Hydroelectric,245.06400000000002,"Hydroelectric, Commercial",other,NA
+1973,Commercial,Solar,34521.174,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1973,Commercial,Wind,46028.232,"Wind, Commercial",other,NA
+1973,Industrial,Geothermal,34337.376000000004,"Geothermal, Industrial",other,NA
+1973,Industrial,Hydroelectric,1914.1680000000001,"Hydroelectric, Industrial",other,NA
+1973,Industrial,Solar,34521.174,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1973,Industrial,Wind,46028.232,"Wind, Industrial",other,NA
+1973,Residential,Geothermal,34337.376000000004,"Geothermal, Residential",other,NA
+1973,Residential,Solar,34521.174,"Solar, Residential","Solar, Residential","Solar, Residential"
+1973,Transportation,Geothermal,35072.568,"Geothermal, Transportation",other,NA
+1973,Transportation,Hydroelectric,135925.464,"Hydroelectric, Transportation",other,NA
+1973,Transportation,Solar,34521.174,"Solar, Transportation",other,NA
+1973,Transportation,Wind,46028.232,"Wind, Transportation",other,NA
+1974,Commercial,Geothermal,38118.96,"Geothermal, Commercial",other,NA
+1974,Commercial,Hydroelectric,307.32,"Hydroelectric, Commercial",other,NA
+1974,Commercial,Solar,38349.450000000004,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1974,Commercial,Wind,51132.600000000006,"Wind, Commercial",other,NA
+1974,Industrial,Geothermal,38118.96,"Geothermal, Industrial",other,NA
+1974,Industrial,Hydroelectric,1901.0159999999998,"Hydroelectric, Industrial",other,NA
+1974,Industrial,Solar,38349.450000000004,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1974,Industrial,Wind,51132.600000000006,"Wind, Industrial",other,NA
+1974,Residential,Geothermal,38118.96,"Geothermal, Residential",other,NA
+1974,Residential,Solar,38349.450000000004,"Solar, Residential","Solar, Residential","Solar, Residential"
+1974,Transportation,Geothermal,39040.92,"Geothermal, Transportation",other,NA
+1974,Transportation,Hydroelectric,151189.464,"Hydroelectric, Transportation",other,NA
+1974,Transportation,Solar,38349.450000000004,"Solar, Transportation",other,NA
+1974,Transportation,Wind,51132.600000000006,"Wind, Transportation",other,NA
+1975,Commercial,Geothermal,37855.272,"Geothermal, Commercial",other,NA
+1975,Commercial,Hydroelectric,405.36,"Hydroelectric, Commercial",other,NA
+1975,Commercial,Solar,38159.292,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1975,Commercial,Wind,50879.056,"Wind, Commercial",other,NA
+1975,Industrial,Geothermal,37855.272,"Geothermal, Industrial",other,NA
+1975,Industrial,Hydroelectric,1956.768,"Hydroelectric, Industrial",other,NA
+1975,Industrial,Solar,38159.292,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1975,Industrial,Wind,50879.056,"Wind, Industrial",other,NA
+1975,Residential,Geothermal,37855.272,"Geothermal, Residential",other,NA
+1975,Residential,Solar,38159.292,"Solar, Residential","Solar, Residential","Solar, Residential"
+1975,Transportation,Geothermal,39071.352,"Geothermal, Transportation",other,NA
+1975,Transportation,Hydroelectric,150275.03999999998,"Hydroelectric, Transportation",other,NA
+1975,Transportation,Solar,38159.292,"Solar, Transportation",other,NA
+1975,Transportation,Wind,50879.056,"Wind, Transportation",other,NA
+1976,Commercial,Geothermal,35715.18,"Geothermal, Commercial",other,NA
+1976,Commercial,Hydroelectric,450.15599999999995,"Hydroelectric, Commercial",other,NA
+1976,Commercial,Solar,36052.797,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1976,Commercial,Wind,48070.396,"Wind, Commercial",other,NA
+1976,Industrial,Geothermal,35715.18,"Geothermal, Industrial",other,NA
+1976,Industrial,Hydroelectric,2052.012,"Hydroelectric, Industrial",other,NA
+1976,Industrial,Solar,36052.797,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1976,Industrial,Wind,48070.396,"Wind, Industrial",other,NA
+1976,Residential,Geothermal,35715.18,"Geothermal, Residential",other,NA
+1976,Residential,Solar,36052.797,"Solar, Residential","Solar, Residential","Solar, Residential"
+1976,Transportation,Geothermal,37065.648,"Geothermal, Transportation",other,NA
+1976,Transportation,Hydroelectric,141709.02,"Hydroelectric, Transportation",other,NA
+1976,Transportation,Solar,36052.797,"Solar, Transportation",other,NA
+1976,Transportation,Wind,48070.396,"Wind, Transportation",other,NA
+1977,Commercial,Geothermal,27999.036,"Geothermal, Commercial",other,NA
+1977,Commercial,Hydroelectric,448.58399999999995,"Hydroelectric, Commercial",other,NA
+1977,Commercial,Solar,28335.474000000002,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1977,Commercial,Wind,37780.632,"Wind, Commercial",other,NA
+1977,Industrial,Geothermal,27999.036,"Geothermal, Industrial",other,NA
+1977,Industrial,Hydroelectric,2013.432,"Hydroelectric, Industrial",other,NA
+1977,Industrial,Solar,28335.474000000002,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1977,Industrial,Wind,37780.632,"Wind, Industrial",other,NA
+1977,Residential,Geothermal,27999.036,"Geothermal, Residential",other,NA
+1977,Residential,Solar,28335.474000000002,"Solar, Residential","Solar, Residential","Solar, Residential"
+1977,Transportation,Geothermal,29344.788,"Geothermal, Transportation",other,NA
+1977,Transportation,Hydroelectric,110879.88,"Hydroelectric, Transportation",other,NA
+1977,Transportation,Solar,28335.474000000002,"Solar, Transportation",other,NA
+1977,Transportation,Wind,37780.632,"Wind, Transportation",other,NA
+1978,Commercial,Geothermal,35243.796,"Geothermal, Commercial",other,NA
+1978,Commercial,Hydroelectric,370.212,"Hydroelectric, Commercial",other,NA
+1978,Commercial,Solar,35521.455,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1978,Commercial,Wind,47361.94,"Wind, Commercial",other,NA
+1978,Industrial,Geothermal,35243.796,"Geothermal, Industrial",other,NA
+1978,Industrial,Hydroelectric,1885.2359999999999,"Hydroelectric, Industrial",other,NA
+1978,Industrial,Solar,35521.455,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1978,Industrial,Wind,47361.94,"Wind, Industrial",other,NA
+1978,Residential,Geothermal,35243.796,"Geothermal, Residential",other,NA
+1978,Residential,Solar,35521.455,"Solar, Residential","Solar, Residential","Solar, Residential"
+1978,Transportation,Geothermal,36354.432,"Geothermal, Transportation",other,NA
+1978,Transportation,Hydroelectric,139830.372,"Hydroelectric, Transportation",other,NA
+1978,Transportation,Solar,35521.455,"Solar, Transportation",other,NA
+1978,Transportation,Wind,47361.94,"Wind, Transportation",other,NA
+1979,Commercial,Geothermal,35168.22,"Geothermal, Commercial",other,NA
+1979,Commercial,Hydroelectric,483.144,"Hydroelectric, Commercial",other,NA
+1979,Commercial,Solar,35530.578,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1979,Commercial,Wind,47374.104,"Wind, Commercial",other,NA
+1979,Industrial,Geothermal,35168.22,"Geothermal, Industrial",other,NA
+1979,Industrial,Hydroelectric,2119.656,"Hydroelectric, Industrial",other,NA
+1979,Industrial,Solar,35530.578,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1979,Industrial,Wind,47374.104,"Wind, Industrial",other,NA
+1979,Residential,Geothermal,35168.22,"Geothermal, Residential",other,NA
+1979,Residential,Solar,35530.578,"Solar, Residential","Solar, Residential","Solar, Residential"
+1979,Transportation,Geothermal,36617.652,"Geothermal, Transportation",other,NA
+1979,Transportation,Hydroelectric,139519.512,"Hydroelectric, Transportation",other,NA
+1979,Transportation,Solar,35530.578,"Solar, Transportation",other,NA
+1979,Transportation,Wind,47374.104,"Wind, Transportation",other,NA
+1980,Commercial,Geothermal,34801.728,"Geothermal, Commercial",other,NA
+1980,Commercial,Hydroelectric,632.3879999999999,"Hydroelectric, Commercial",other,NA
+1980,Commercial,Solar,35276.019,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1980,Commercial,Wind,47034.692,"Wind, Commercial",other,NA
+1980,Industrial,Geothermal,34801.728,"Geothermal, Industrial",other,NA
+1980,Industrial,Hydroelectric,2208.612,"Hydroelectric, Industrial",other,NA
+1980,Industrial,Solar,35276.019,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1980,Industrial,Wind,47034.692,"Wind, Industrial",other,NA
+1980,Residential,Geothermal,34801.728,"Geothermal, Residential",other,NA
+1980,Residential,Solar,35276.019,"Solar, Residential","Solar, Residential","Solar, Residential"
+1980,Transportation,Geothermal,36698.892,"Geothermal, Transportation",other,NA
+1980,Transportation,Hydroelectric,138263.076,"Hydroelectric, Transportation",other,NA
+1980,Transportation,Solar,35276.019,"Solar, Transportation",other,NA
+1980,Transportation,Wind,47034.692,"Wind, Transportation",other,NA
+1981,Commercial,Geothermal,33095.616,"Geothermal, Commercial",other,NA
+1981,Commercial,Hydroelectric,713.2439999999999,"Hydroelectric, Commercial",other,NA
+1981,Commercial,Solar,33630.549,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1981,Commercial,Wind,44840.732,"Wind, Commercial",other,NA
+1981,Industrial,Geothermal,33095.616,"Geothermal, Industrial",other,NA
+1981,Industrial,Hydroelectric,2299.308,"Hydroelectric, Industrial",other,NA
+1981,Industrial,Solar,33630.549,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1981,Industrial,Wind,44840.732,"Wind, Industrial",other,NA
+1981,Residential,Geothermal,33095.616,"Geothermal, Residential",other,NA
+1981,Residential,Solar,33630.549,"Solar, Residential","Solar, Residential","Solar, Residential"
+1981,Transportation,Geothermal,35235.348000000005,"Geothermal, Transportation",other,NA
+1981,Transportation,Hydroelectric,131509.644,"Hydroelectric, Transportation",other,NA
+1981,Transportation,Solar,33630.549,"Solar, Transportation",other,NA
+1981,Transportation,Wind,44840.732,"Wind, Transportation",other,NA
+1982,Commercial,Geothermal,39186.696,"Geothermal, Commercial",other,NA
+1982,Commercial,Hydroelectric,607.524,"Hydroelectric, Commercial",other,NA
+1982,Commercial,Solar,39642.339,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1982,Commercial,Wind,52856.452000000005,"Wind, Commercial",other,NA
+1982,Industrial,Geothermal,39186.696,"Geothermal, Industrial",other,NA
+1982,Industrial,Hydroelectric,2193.732,"Hydroelectric, Industrial",other,NA
+1982,Industrial,Solar,39642.339,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1982,Industrial,Wind,52856.452000000005,"Wind, Industrial",other,NA
+1982,Residential,Geothermal,39186.696,"Geothermal, Residential",other,NA
+1982,Residential,Solar,39642.339,"Solar, Residential","Solar, Residential","Solar, Residential"
+1982,Transportation,Geothermal,41009.268000000004,"Geothermal, Transportation",other,NA
+1982,Transportation,Hydroelectric,155768.1,"Hydroelectric, Transportation",other,NA
+1982,Transportation,Solar,39642.339,"Solar, Transportation",other,NA
+1982,Transportation,Wind,52856.452000000005,"Wind, Transportation",other,NA
+1983,Commercial,Geothermal,42327.456,"Geothermal, Commercial",other,NA
+1983,Commercial,Hydroelectric,767.3679999999999,"Hydroelectric, Commercial",other,NA
+1983,Commercial,Solar,42902.646,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1983,Commercial,Wind,57203.08,"Wind, Commercial",other,NA
+1983,Industrial,Geothermal,42327.456,"Geothermal, Industrial",other,NA
+1983,Industrial,Hydroelectric,2363.608,"Hydroelectric, Industrial",other,NA
+1983,Industrial,Solar,42902.646,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1983,Industrial,Wind,57203.08,"Wind, Industrial",other,NA
+1983,Residential,Geothermal,42327.456,"Geothermal, Residential",other,NA
+1983,Residential,Solar,42902.646,"Solar, Residential","Solar, Residential","Solar, Residential"
+1983,Transportation,Geothermal,44628.216,"Geothermal, Transportation",other,NA
+1983,Transportation,Hydroelectric,168479.608,"Hydroelectric, Transportation",other,NA
+1983,Transportation,Solar,42902.646,"Solar, Transportation",other,NA
+1983,Transportation,Wind,57204.424,"Wind, Transportation",other,NA
+1984,Commercial,Geothermal,40631.043000000005,"Geothermal, Commercial",other,NA
+1984,Commercial,Hydroelectric,971.4800000000001,"Hydroelectric, Commercial",other,NA
+1984,Commercial,Solar,41357.847,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1984,Commercial,Wind,55143.368,"Wind, Commercial",other,NA
+1984,Industrial,Geothermal,40631.043000000005,"Geothermal, Industrial",other,NA
+1984,Industrial,Hydroelectric,2555.576,"Hydroelectric, Industrial",other,NA
+1984,Industrial,Solar,41357.847,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1984,Industrial,Wind,55143.368,"Wind, Industrial",other,NA
+1984,Residential,Geothermal,40631.043000000005,"Geothermal, Residential",other,NA
+1984,Residential,Solar,41357.847,"Solar, Residential","Solar, Residential","Solar, Residential"
+1984,Transportation,Geothermal,43540.239,"Geothermal, Transportation",other,NA
+1984,Transportation,Hydroelectric,161906.312,"Hydroelectric, Transportation",other,NA
+1984,Transportation,Solar,41359.827000000005,"Solar, Transportation",other,NA
+1984,Transportation,Wind,55146.632000000005,"Wind, Transportation",other,NA
+1985,Commercial,Geothermal,35644.023,"Geothermal, Commercial",other,NA
+1985,Commercial,Hydroelectric,1171.344,"Hydroelectric, Commercial",other,NA
+1985,Commercial,Solar,36519.813,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1985,Commercial,Wind,48693.456000000006,"Wind, Commercial",other,NA
+1985,Industrial,Geothermal,35644.023,"Geothermal, Industrial",other,NA
+1985,Industrial,Hydroelectric,2756.496,"Hydroelectric, Industrial",other,NA
+1985,Industrial,Solar,36519.813,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1985,Industrial,Wind,48693.456000000006,"Wind, Industrial",other,NA
+1985,Residential,Geothermal,35644.023,"Geothermal, Residential",other,NA
+1985,Residential,Solar,36519.813,"Solar, Residential","Solar, Residential","Solar, Residential"
+1985,Transportation,Geothermal,39151.179000000004,"Geothermal, Transportation",other,NA
+1985,Transportation,Hydroelectric,142155.408,"Hydroelectric, Transportation",other,NA
+1985,Transportation,Solar,36523.809,"Solar, Transportation",other,NA
+1985,Transportation,Wind,48696.336,"Wind, Transportation",other,NA
+1986,Commercial,Geothermal,36855.987,"Geothermal, Commercial",other,NA
+1986,Commercial,Hydroelectric,1294.592,"Hydroelectric, Commercial",other,NA
+1986,Commercial,Solar,37823.757000000005,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1986,Commercial,Wind,50432.736000000004,"Wind, Commercial",other,NA
+1986,Industrial,Geothermal,36855.987,"Geothermal, Industrial",other,NA
+1986,Industrial,Hydroelectric,2879.6,"Hydroelectric, Industrial",other,NA
+1986,Industrial,Solar,37823.757000000005,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1986,Industrial,Wind,50432.736000000004,"Wind, Industrial",other,NA
+1986,Residential,Geothermal,36855.987,"Geothermal, Residential",other,NA
+1986,Residential,Solar,37823.757000000005,"Solar, Residential","Solar, Residential","Solar, Residential"
+1986,Transportation,Geothermal,40732.359000000004,"Geothermal, Transportation",other,NA
+1986,Transportation,Hydroelectric,147126.128,"Hydroelectric, Transportation",other,NA
+1986,Transportation,Solar,37829.049,"Solar, Transportation",other,NA
+1986,Transportation,Wind,50434.848000000005,"Wind, Transportation",other,NA
+1987,Commercial,Geothermal,31615.521,"Geothermal, Commercial",other,NA
+1987,Commercial,Hydroelectric,1349.1399999999999,"Hydroelectric, Commercial",other,NA
+1987,Commercial,Solar,32624.97,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1987,Commercial,Wind,43500.676,"Wind, Commercial",other,NA
+1987,Industrial,Geothermal,31615.521,"Geothermal, Industrial",other,NA
+1987,Industrial,Hydroelectric,2930.0679999999998,"Hydroelectric, Industrial",other,NA
+1987,Industrial,Solar,32624.97,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1987,Industrial,Wind,43500.676,"Wind, Industrial",other,NA
+1987,Residential,Geothermal,31615.521,"Geothermal, Residential",other,NA
+1987,Residential,Solar,32624.97,"Solar, Residential","Solar, Residential","Solar, Residential"
+1987,Transportation,Geothermal,35657.241,"Geothermal, Transportation",other,NA
+1987,Transportation,Hydroelectric,126224.596,"Hydroelectric, Transportation",other,NA
+1987,Transportation,Solar,32628.894,"Solar, Transportation",other,NA
+1987,Transportation,Wind,43502.452000000005,"Wind, Transportation",other,NA
+1988,Commercial,Geothermal,28012.122,"Geothermal, Commercial",other,NA
+1988,Commercial,Hydroelectric,1277.328,"Hydroelectric, Commercial",other,NA
+1988,Commercial,Solar,28968.318,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1988,Commercial,Wind,38625.407999999996,"Wind, Commercial",other,NA
+1988,Industrial,Geothermal,28012.122,"Geothermal, Industrial",other,NA
+1988,Industrial,Hydroelectric,2843.808,"Hydroelectric, Industrial",other,NA
+1988,Industrial,Solar,28968.318,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1988,Industrial,Wind,38625.407999999996,"Wind, Industrial",other,NA
+1988,Residential,Geothermal,28012.122,"Geothermal, Residential",other,NA
+1988,Residential,Solar,28968.318,"Solar, Residential","Solar, Residential","Solar, Residential"
+1988,Transportation,Geothermal,31840.289999999997,"Geothermal, Transportation",other,NA
+1988,Transportation,Hydroelectric,111755.51999999999,"Hydroelectric, Transportation",other,NA
+1988,Transportation,Solar,28971.701999999997,"Solar, Transportation",other,NA
+1988,Transportation,Wind,38625.84,"Wind, Transportation",other,NA
+1989,Commercial,Geothermal,34891.899,"Geothermal, Commercial",other,NA
+1989,Commercial,Hydroelectric,2977.672,"Hydroelectric, Commercial",other,NA
+1989,Commercial,Solar,35771.738999999994,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1989,Commercial,Wind,47988.471999999994,"Wind, Commercial",other,NA
+1989,Industrial,Geothermal,34866.699,"Geothermal, Industrial",other,NA
+1989,Industrial,Hydroelectric,4307.8,"Hydroelectric, Industrial",other,NA
+1989,Industrial,Solar,35766.807,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1989,Industrial,Wind,47988.471999999994,"Wind, Industrial",other,NA
+1989,Residential,Geothermal,34981.899,"Geothermal, Residential",other,NA
+1989,Residential,Solar,37624.947,"Solar, Residential","Solar, Residential","Solar, Residential"
+1989,Transportation,Geothermal,40282.503,"Geothermal, Transportation",other,NA
+1989,Transportation,Hydroelectric,137737.528,"Hydroelectric, Transportation",other,NA
+1989,Transportation,Solar,35859.507,"Solar, Transportation",other,NA
+1989,Transportation,Wind,49046.056,"Wind, Transportation",other,NA
+1990,Commercial,Geothermal,37534.65,"Geothermal, Commercial",other,NA
+1990,Commercial,Hydroelectric,3287.244,"Hydroelectric, Commercial",other,NA
+1990,Commercial,Solar,38448.699,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1990,Commercial,Wind,51496.652,"Wind, Commercial",other,NA
+1990,Industrial,Geothermal,37502.25,"Geothermal, Industrial",other,NA
+1990,Industrial,Hydroelectric,4703.964,"Hydroelectric, Industrial",other,NA
+1990,Industrial,Solar,38443.083,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1990,Industrial,Wind,51496.652,"Wind, Industrial",other,NA
+1990,Residential,Geothermal,37631.85,"Geothermal, Residential",other,NA
+1990,Residential,Solar,40411.563,"Solar, Residential","Solar, Residential","Solar, Residential"
+1990,Transportation,Geothermal,43213.542,"Geothermal, Transportation",other,NA
+1990,Transportation,Hydroelectric,147891.084,"Hydroelectric, Transportation",other,NA
+1990,Transportation,Solar,38578.947,"Solar, Transportation",other,NA
+1990,Transportation,Wind,52888.988000000005,"Wind, Transportation",other,NA
+1991,Commercial,Geothermal,37223.664,"Geothermal, Commercial",other,NA
+1991,Commercial,Hydroelectric,3429.688,"Hydroelectric, Commercial",other,NA
+1991,Commercial,Solar,38167.566,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1991,Commercial,Wind,51126.328,"Wind, Commercial",other,NA
+1991,Industrial,Geothermal,37191.263999999996,"Geothermal, Industrial",other,NA
+1991,Industrial,Hydroelectric,4788.376,"Hydroelectric, Industrial",other,NA
+1991,Industrial,Solar,38161.265999999996,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1991,Industrial,Wind,51126.328,"Wind, Industrial",other,NA
+1991,Residential,Geothermal,37328.064,"Geothermal, Residential",other,NA
+1991,Residential,Solar,40191.63,"Solar, Residential","Solar, Residential","Solar, Residential"
+1991,Transportation,Geothermal,43114.2,"Geothermal, Transportation",other,NA
+1991,Transportation,Hydroelectric,146639.128,"Hydroelectric, Transportation",other,NA
+1991,Transportation,Solar,38336.729999999996,"Solar, Transportation",other,NA
+1991,Transportation,Wind,52604.536,"Wind, Transportation",other,NA
+1992,Commercial,Geothermal,32448.924,"Geothermal, Commercial",other,NA
+1992,Commercial,Hydroelectric,3437.812,"Hydroelectric, Commercial",other,NA
+1992,Commercial,Solar,33384.663,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1992,Commercial,Wind,44778.212,"Wind, Commercial",other,NA
+1992,Industrial,Geothermal,32412.924,"Geothermal, Industrial",other,NA
+1992,Industrial,Hydroelectric,4841.428,"Hydroelectric, Industrial",other,NA
+1992,Industrial,Solar,33377.823,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1992,Industrial,Wind,44778.212,"Wind, Industrial",other,NA
+1992,Residential,Geothermal,32564.123999999996,"Geothermal, Residential",other,NA
+1992,Residential,Solar,35480.907,"Solar, Residential","Solar, Residential","Solar, Residential"
+1992,Transportation,Geothermal,38342.087999999996,"Geothermal, Transportation",other,NA
+1992,Transportation,Hydroelectric,127488.81999999999,"Hydroelectric, Transportation",other,NA
+1992,Transportation,Solar,33524.667,"Solar, Transportation",other,NA
+1992,Transportation,Wind,46211.636,"Wind, Transportation",other,NA
+1993,Commercial,Geothermal,35780.514,"Geothermal, Commercial",other,NA
+1993,Commercial,Hydroelectric,3555.78,"Hydroelectric, Commercial",other,NA
+1993,Commercial,Solar,36751.820999999996,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1993,Commercial,Wind,49276.436,"Wind, Commercial",other,NA
+1993,Industrial,Geothermal,35744.514,"Geothermal, Industrial",other,NA
+1993,Industrial,Hydroelectric,4926.9,"Hydroelectric, Industrial",other,NA
+1993,Industrial,Solar,36744.369,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1993,Industrial,Wind,49276.436,"Wind, Industrial",other,NA
+1993,Residential,Geothermal,35902.914,"Geothermal, Residential",other,NA
+1993,Residential,Solar,38906.637,"Solar, Residential","Solar, Residential","Solar, Residential"
+1993,Transportation,Geothermal,41888.742,"Geothermal, Transportation",other,NA
+1993,Transportation,Hydroelectric,140834.004,"Hydroelectric, Transportation",other,NA
+1993,Transportation,Solar,36913.856999999996,"Solar, Transportation",other,NA
+1993,Transportation,Wind,50763.812,"Wind, Transportation",other,NA
+1994,Commercial,Geothermal,33383.79,"Geothermal, Commercial",other,NA
+1994,Commercial,Hydroelectric,3502.3120000000004,"Hydroelectric, Commercial",other,NA
+1994,Commercial,Solar,34200.108,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1994,Commercial,Wind,45822.727999999996,"Wind, Commercial",other,NA
+1994,Industrial,Geothermal,33333.39,"Geothermal, Industrial",other,NA
+1994,Industrial,Hydroelectric,6441.304,"Hydroelectric, Industrial",other,NA
+1994,Industrial,Solar,34191.756,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1994,Industrial,Wind,45822.727999999996,"Wind, Industrial",other,NA
+1994,Residential,Geothermal,33455.79,"Geothermal, Residential",other,NA
+1994,Residential,Solar,36413.1,"Solar, Residential","Solar, Residential","Solar, Residential"
+1994,Transportation,Geothermal,39002.094,"Geothermal, Transportation",other,NA
+1994,Transportation,Hydroelectric,129231.44799999999,"Hydroelectric, Transportation",other,NA
+1994,Transportation,Solar,34370.1,"Solar, Transportation",other,NA
+1994,Transportation,Wind,47529.608,"Wind, Transportation",other,NA
+1995,Commercial,Geothermal,39631.629,"Geothermal, Commercial",other,NA
+1995,Commercial,Hydroelectric,3224.504,"Hydroelectric, Commercial",other,NA
+1995,Commercial,Solar,40236.032999999996,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1995,Commercial,Wind,53928.776,"Wind, Commercial",other,NA
+1995,Industrial,Geothermal,39577.629,"Geothermal, Industrial",other,NA
+1995,Industrial,Hydroelectric,5791.304,"Hydroelectric, Industrial",other,NA
+1995,Industrial,Solar,40226.492999999995,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1995,Industrial,Wind,53928.776,"Wind, Industrial",other,NA
+1995,Residential,Geothermal,39707.229,"Geothermal, Residential",other,NA
+1995,Residential,Solar,42481.856999999996,"Solar, Residential","Solar, Residential","Solar, Residential"
+1995,Transportation,Geothermal,44436.081,"Geothermal, Transportation",other,NA
+1995,Transportation,Hydroelectric,154336.75999999998,"Hydroelectric, Transportation",other,NA
+1995,Transportation,Solar,40408.185,"Solar, Transportation",other,NA
+1995,Transportation,Wind,55495.015999999996,"Wind, Transportation",other,NA
+1996,Commercial,Geothermal,44290.479,"Geothermal, Commercial",other,NA
+1996,Commercial,Hydroelectric,3387.7999999999997,"Hydroelectric, Commercial",other,NA
+1996,Commercial,Solar,44961.519,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1996,Commercial,Wind,60224.84,"Wind, Commercial",other,NA
+1996,Industrial,Geothermal,44204.079,"Geothermal, Industrial",other,NA
+1996,Industrial,Hydroelectric,6242.504,"Hydroelectric, Industrial",other,NA
+1996,Industrial,Solar,44950.503,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1996,Industrial,Wind,60224.84,"Wind, Industrial",other,NA
+1996,Residential,Geothermal,44351.679,"Geothermal, Residential",other,NA
+1996,Residential,Solar,47226.242999999995,"Solar, Residential","Solar, Residential","Solar, Residential"
+1996,Transportation,Geothermal,49433.403,"Geothermal, Transportation",other,NA
+1996,Transportation,Hydroelectric,172649.33599999998,"Hydroelectric, Transportation",other,NA
+1996,Transportation,Solar,45141.375,"Solar, Transportation",other,NA
+1996,Transportation,Wind,61829.96,"Wind, Transportation",other,NA
+1997,Commercial,Geothermal,44907.531,"Geothermal, Commercial",other,NA
+1997,Commercial,Hydroelectric,3415.1,"Hydroelectric, Commercial",other,NA
+1997,Commercial,Solar,45604.374,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1997,Commercial,Wind,61066.188,"Wind, Commercial",other,NA
+1997,Industrial,Geothermal,44813.931000000004,"Geothermal, Industrial",other,NA
+1997,Industrial,Hydroelectric,6143.132,"Hydroelectric, Industrial",other,NA
+1997,Industrial,Solar,45592.206,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1997,Industrial,Wind,61066.188,"Wind, Industrial",other,NA
+1997,Residential,Geothermal,44972.331,"Geothermal, Residential",other,NA
+1997,Residential,Solar,47837.166000000005,"Solar, Residential","Solar, Residential","Solar, Residential"
+1997,Transportation,Geothermal,50116.659,"Geothermal, Transportation",other,NA
+1997,Transportation,Hydroelectric,175252.22,"Hydroelectric, Transportation",other,NA
+1997,Transportation,Solar,45776.706,"Solar, Transportation",other,NA
+1997,Transportation,Wind,62678.076,"Wind, Transportation",other,NA
+1998,Commercial,Geothermal,40797.936,"Geothermal, Commercial",other,NA
+1998,Commercial,Hydroelectric,3383.944,"Hydroelectric, Commercial",other,NA
+1998,Commercial,Solar,41468.598,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1998,Commercial,Wind,55584.200000000004,"Wind, Commercial",other,NA
+1998,Industrial,Geothermal,40650.336,"Geothermal, Industrial",other,NA
+1998,Industrial,Hydroelectric,5942.872,"Hydroelectric, Industrial",other,NA
+1998,Industrial,Solar,41454.846,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1998,Industrial,Wind,55584.200000000004,"Wind, Industrial",other,NA
+1998,Residential,Geothermal,40819.536,"Geothermal, Residential",other,NA
+1998,Residential,Solar,43674.714,"Solar, Residential","Solar, Residential","Solar, Residential"
+1998,Transportation,Geothermal,45965.736000000004,"Geothermal, Transportation",other,NA
+1998,Transportation,Hydroelectric,158906.728,"Hydroelectric, Transportation",other,NA
+1998,Transportation,Solar,41635.386,"Solar, Transportation",other,NA
+1998,Transportation,Wind,57065.144,"Wind, Transportation",other,NA
+1999,Commercial,Geothermal,40597.908,"Geothermal, Commercial",other,NA
+1999,Commercial,Hydroelectric,3635.1,"Hydroelectric, Commercial",other,NA
+1999,Commercial,Solar,41320.509,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+1999,Commercial,Wind,55125.692,"Wind, Commercial",other,NA
+1999,Industrial,Geothermal,40504.308000000005,"Geothermal, Industrial",other,NA
+1999,Industrial,Hydroelectric,5914.38,"Hydroelectric, Industrial",other,NA
+1999,Industrial,Solar,41304.489,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+1999,Industrial,Wind,55125.692,"Wind, Industrial",other,NA
+1999,Residential,Geothermal,40662.708,"Geothermal, Residential",other,NA
+1999,Residential,Solar,43472.805,"Solar, Residential","Solar, Residential","Solar, Residential"
+1999,Transportation,Geothermal,45815.064,"Geothermal, Transportation",other,NA
+1999,Transportation,Hydroelectric,158030.508,"Hydroelectric, Transportation",other,NA
+1999,Transportation,Solar,41482.185000000005,"Solar, Transportation",other,NA
+1999,Transportation,Wind,57328.604,"Wind, Transportation",other,NA
+2000,Commercial,Geothermal,35263.467000000004,"Geothermal, Commercial",other,NA
+2000,Commercial,Hydroelectric,3696.516,"Hydroelectric, Commercial",other,NA
+2000,Commercial,Solar,35920.692,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2000,Commercial,Wind,47712.612,"Wind, Commercial",other,NA
+2000,Industrial,Geothermal,35148.267,"Geothermal, Industrial",other,NA
+2000,Industrial,Hydroelectric,5672.436000000001,"Hydroelectric, Industrial",other,NA
+2000,Industrial,Solar,35902.512,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2000,Industrial,Wind,47712.612,"Wind, Industrial",other,NA
+2000,Residential,Geothermal,35299.467000000004,"Geothermal, Residential",other,NA
+2000,Residential,Solar,37974.816,"Solar, Residential","Solar, Residential","Solar, Residential"
+2000,Transportation,Geothermal,40165.371,"Geothermal, Transportation",other,NA
+2000,Transportation,Hydroelectric,136507.62,"Hydroelectric, Transportation",other,NA
+2000,Transportation,Solar,36078.552,"Solar, Transportation",other,NA
+2000,Transportation,Wind,50451.348000000005,"Wind, Transportation",other,NA
+2001,Commercial,Geothermal,28591.160999999996,"Geothermal, Commercial",other,NA
+2001,Commercial,Hydroelectric,3861.368,"Hydroelectric, Commercial",other,NA
+2001,Commercial,Solar,29246.396999999997,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2001,Commercial,Wind,38584.248,"Wind, Commercial",other,NA
+2001,Industrial,Geothermal,28464.801,"Geothermal, Industrial",other,NA
+2001,Industrial,Hydroelectric,5388.392,"Hydroelectric, Industrial",other,NA
+2001,Industrial,Solar,29224.184999999998,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2001,Industrial,Wind,38584.248,"Wind, Industrial",other,NA
+2001,Residential,Geothermal,28633.641,"Geothermal, Residential",other,NA
+2001,Residential,Solar,31204.040999999997,"Solar, Residential","Solar, Residential","Solar, Residential"
+2001,Transportation,Geothermal,33404.757,"Geothermal, Transportation",other,NA
+2001,Transportation,Hydroelectric,109844.59999999999,"Hydroelectric, Transportation",other,NA
+2001,Transportation,Solar,29419.736999999997,"Solar, Transportation",other,NA
+2001,Transportation,Wind,41925.863999999994,"Wind, Transportation",other,NA
+2002,Commercial,Geothermal,34387.932,"Geothermal, Commercial",other,NA
+2002,Commercial,Hydroelectric,4466.3679999999995,"Hydroelectric, Commercial",other,NA
+2002,Commercial,Solar,35106.024,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2002,Commercial,Wind,45799.056,"Wind, Commercial",other,NA
+2002,Industrial,Geothermal,34245.155999999995,"Geothermal, Industrial",other,NA
+2002,Industrial,Hydroelectric,6327.7119999999995,"Hydroelectric, Industrial",other,NA
+2002,Industrial,Solar,35080.068,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2002,Industrial,Wind,45799.056,"Wind, Industrial",other,NA
+2002,Residential,Geothermal,34440.168,"Geothermal, Residential",other,NA
+2002,Residential,Solar,36991.236,"Solar, Residential","Solar, Residential","Solar, Residential"
+2002,Transportation,Geothermal,39379.943999999996,"Geothermal, Transportation",other,NA
+2002,Transportation,Hydroelectric,131659.12,"Hydroelectric, Transportation",other,NA
+2002,Transportation,Solar,35275.871999999996,"Solar, Transportation",other,NA
+2002,Transportation,Wind,50855.087999999996,"Wind, Transportation",other,NA
+2003,Commercial,Geothermal,35792.55,"Geothermal, Commercial",other,NA
+2003,Commercial,Hydroelectric,4631.204,"Hydroelectric, Commercial",other,NA
+2003,Commercial,Solar,36469.485,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2003,Commercial,Wind,47464.372,"Wind, Commercial",other,NA
+2003,Industrial,Geothermal,35518.95,"Geothermal, Industrial",other,NA
+2003,Industrial,Hydroelectric,6648.2119999999995,"Hydroelectric, Industrial",other,NA
+2003,Industrial,Solar,36439.317,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2003,Industrial,Wind,47464.372,"Wind, Industrial",other,NA
+2003,Residential,Geothermal,35864.55,"Geothermal, Residential",other,NA
+2003,Residential,Solar,38296.017,"Solar, Residential","Solar, Residential","Solar, Residential"
+2003,Transportation,Geothermal,40654.17,"Geothermal, Transportation",other,NA
+2003,Transportation,Hydroelectric,136550.804,"Hydroelectric, Transportation",other,NA
+2003,Transportation,Solar,36625.401,"Solar, Transportation",other,NA
+2003,Transportation,Wind,52901.476,"Wind, Transportation",other,NA
+2004,Commercial,Geothermal,34920.093,"Geothermal, Commercial",other,NA
+2004,Commercial,Hydroelectric,5156.848,"Hydroelectric, Commercial",other,NA
+2004,Commercial,Solar,35612.355,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2004,Commercial,Wind,45855.264,"Wind, Commercial",other,NA
+2004,Industrial,Geothermal,34624.893000000004,"Geothermal, Industrial",other,NA
+2004,Industrial,Hydroelectric,6668.1759999999995,"Hydroelectric, Industrial",other,NA
+2004,Industrial,Solar,35575.419,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2004,Industrial,Wind,45855.264,"Wind, Industrial",other,NA
+2004,Residential,Geothermal,34992.093,"Geothermal, Residential",other,NA
+2004,Residential,Solar,37405.587,"Solar, Residential","Solar, Residential","Solar, Residential"
+2004,Transportation,Geothermal,39828.585,"Geothermal, Transportation",other,NA
+2004,Transportation,Hydroelectric,132540.64,"Hydroelectric, Transportation",other,NA
+2004,Transportation,Solar,35772.303,"Solar, Transportation",other,NA
+2004,Transportation,Wind,52655.136,"Wind, Transportation",other,NA
+2005,Commercial,Geothermal,35584.689,"Geothermal, Commercial",other,NA
+2005,Commercial,Hydroelectric,5756.096,"Hydroelectric, Commercial",other,NA
+2005,Commercial,Solar,36269.787,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2005,Commercial,Wind,46112.479999999996,"Wind, Commercial",other,NA
+2005,Industrial,Geothermal,35249.888999999996,"Geothermal, Industrial",other,NA
+2005,Industrial,Hydroelectric,7248.464,"Hydroelectric, Industrial",other,NA
+2005,Industrial,Solar,36214.419,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2005,Industrial,Wind,46112.479999999996,"Wind, Industrial",other,NA
+2005,Residential,Geothermal,35667.489,"Geothermal, Residential",other,NA
+2005,Residential,Solar,38004.699,"Solar, Residential","Solar, Residential","Solar, Residential"
+2005,Transportation,Geothermal,40383.596999999994,"Geothermal, Transportation",other,NA
+2005,Transportation,Hydroelectric,133881.104,"Hydroelectric, Transportation",other,NA
+2005,Transportation,Solar,36396.759,"Solar, Transportation",other,NA
+2005,Transportation,Wind,54660.704,"Wind, Transportation",other,NA
+2006,Commercial,Geothermal,38646.531,"Geothermal, Commercial",other,NA
+2006,Commercial,Hydroelectric,7171.028,"Hydroelectric, Commercial",other,NA
+2006,Commercial,Solar,39326.94,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2006,Commercial,Wind,48811.3,"Wind, Commercial",other,NA
+2006,Industrial,Geothermal,38300.931000000004,"Geothermal, Industrial",other,NA
+2006,Industrial,Hydroelectric,8506.82,"Hydroelectric, Industrial",other,NA
+2006,Industrial,Solar,39246.876000000004,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2006,Industrial,Wind,48811.3,"Wind, Industrial",other,NA
+2006,Residential,Geothermal,38801.331,"Geothermal, Residential",other,NA
+2006,Residential,Solar,41114.124,"Solar, Residential","Solar, Residential","Solar, Residential"
+2006,Transportation,Geothermal,43344.531,"Geothermal, Transportation",other,NA
+2006,Transportation,Hydroelectric,143415.476,"Hydroelectric, Transportation",other,NA
+2006,Transportation,Solar,39405.384,"Solar, Transportation",other,NA
+2006,Transportation,Wind,61470.724,"Wind, Transportation",other,NA
+2007,Commercial,Geothermal,34555.119,"Geothermal, Commercial",other,NA
+2007,Commercial,Hydroelectric,8506.044,"Hydroelectric, Commercial",other,NA
+2007,Commercial,Solar,35259.378000000004,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2007,Commercial,Wind,42163.532,"Wind, Commercial",other,NA
+2007,Industrial,Geothermal,34205.919,"Geothermal, Industrial",other,NA
+2007,Industrial,Hydroelectric,9223.692,"Hydroelectric, Industrial",other,NA
+2007,Industrial,Solar,35146.698000000004,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2007,Industrial,Wind,42163.532,"Wind, Industrial",other,NA
+2007,Residential,Geothermal,34828.719000000005,"Geothermal, Residential",other,NA
+2007,Residential,Solar,37096.314,"Solar, Residential","Solar, Residential","Solar, Residential"
+2007,Transportation,Geothermal,39244.983,"Geothermal, Transportation",other,NA
+2007,Transportation,Hydroelectric,125105.004,"Hydroelectric, Transportation",other,NA
+2007,Transportation,Solar,35332.35,"Solar, Transportation",other,NA
+2007,Transportation,Wind,58507.676,"Wind, Transportation",other,NA
+2008,Commercial,Geothermal,37886.043000000005,"Geothermal, Commercial",other,NA
+2008,Commercial,Hydroelectric,11964.16,"Hydroelectric, Commercial",other,NA
+2008,Commercial,Solar,38643.645000000004,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2008,Commercial,Wind,43384.752,"Wind, Commercial",other,NA
+2008,Industrial,Geothermal,37533.243,"Geothermal, Industrial",other,NA
+2008,Industrial,Hydroelectric,12728.464,"Hydroelectric, Industrial",other,NA
+2008,Industrial,Solar,38463.105,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2008,Industrial,Wind,43384.752,"Wind, Industrial",other,NA
+2008,Residential,Geothermal,38303.643000000004,"Geothermal, Residential",other,NA
+2008,Residential,Solar,40515.465000000004,"Solar, Residential","Solar, Residential","Solar, Residential"
+2008,Transportation,Geothermal,42617.631,"Geothermal, Transportation",other,NA
+2008,Transportation,Hydroelectric,131647.93600000002,"Hydroelectric, Transportation",other,NA
+2008,Transportation,Solar,38718.345,"Solar, Transportation",other,NA
+2008,Transportation,Wind,69571.056,"Wind, Transportation",other,NA
+2009,Commercial,Geothermal,41991.576,"Geothermal, Commercial",other,NA
+2009,Commercial,Hydroelectric,14921.403999999999,"Hydroelectric, Commercial",other,NA
+2009,Commercial,Solar,42789.777,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2009,Commercial,Wind,46051.420000000006,"Wind, Commercial",other,NA
+2009,Industrial,Geothermal,41541.576,"Geothermal, Industrial",other,NA
+2009,Industrial,Hydroelectric,15763.467999999999,"Hydroelectric, Industrial",other,NA
+2009,Industrial,Solar,42549.477,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2009,Industrial,Wind,46051.324,"Wind, Industrial",other,NA
+2009,Residential,Geothermal,42571.176,"Geothermal, Residential",other,NA
+2009,Residential,Solar,44634.705,"Solar, Residential","Solar, Residential","Solar, Residential"
+2009,Transportation,Geothermal,46663.836,"Geothermal, Transportation",other,NA
+2009,Transportation,Hydroelectric,142083.29200000002,"Hydroelectric, Transportation",other,NA
+2009,Transportation,Solar,42794.205,"Solar, Transportation",other,NA
+2009,Transportation,Wind,80665.42,"Wind, Transportation",other,NA
+2010,Commercial,Geothermal,43042.371,"Geothermal, Commercial",other,NA
+2010,Commercial,Hydroelectric,18418.6,"Hydroelectric, Commercial",other,NA
+2010,Commercial,Solar,43888.299,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2010,Commercial,Wind,44230.263999999996,"Wind, Commercial",other,NA
+2010,Industrial,Geothermal,42527.570999999996,"Geothermal, Industrial",other,NA
+2010,Industrial,Hydroelectric,19161.88,"Hydroelectric, Industrial",other,NA
+2010,Industrial,Solar,43520.415,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2010,Industrial,Wind,44222.727999999996,"Wind, Industrial",other,NA
+2010,Residential,Geothermal,43701.170999999995,"Geothermal, Residential",other,NA
+2010,Residential,Solar,45745.143,"Solar, Residential","Solar, Residential","Solar, Residential"
+2010,Transportation,Geothermal,47721.615,"Geothermal, Transportation",other,NA
+2010,Transportation,Hydroelectric,139412.248,"Hydroelectric, Transportation",other,NA
+2010,Transportation,Solar,43838.871,"Solar, Transportation",other,NA
+2010,Transportation,Wind,88539.73599999999,"Wind, Transportation",other,NA
+2011,Commercial,Geothermal,52985.124,"Geothermal, Commercial",other,NA
+2011,Commercial,Hydroelectric,22615.268,"Hydroelectric, Commercial",other,NA
+2011,Commercial,Solar,53952.147,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2011,Commercial,Wind,53590.515999999996,"Wind, Commercial",other,NA
+2011,Industrial,Geothermal,52427.124,"Geothermal, Industrial",other,NA
+2011,Industrial,Hydroelectric,23442.212,"Hydroelectric, Industrial",other,NA
+2011,Industrial,Solar,53328.663,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2011,Industrial,Wind,53569.06,"Wind, Industrial",other,NA
+2011,Residential,Geothermal,53701.524,"Geothermal, Residential",other,NA
+2011,Residential,Solar,55705.275,"Solar, Residential","Solar, Residential","Solar, Residential"
+2011,Transportation,Geothermal,57633.12,"Geothermal, Transportation",other,NA
+2011,Transportation,Hydroelectric,170689.412,"Hydroelectric, Transportation",other,NA
+2011,Transportation,Solar,53760.807,"Solar, Transportation",other,NA
+2011,Transportation,Wind,109587.316,"Wind, Transportation",other,NA
+2012,Commercial,Geothermal,49794.576,"Geothermal, Commercial",other,NA
+2012,Commercial,Hydroelectric,25939.616,"Hydroelectric, Commercial",other,NA
+2012,Commercial,Solar,50825.112,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2012,Commercial,Wind,46569.936,"Wind, Commercial",other,NA
+2012,Industrial,Geothermal,49236.576,"Geothermal, Industrial",other,NA
+2012,Industrial,Hydroelectric,27001.904,"Hydroelectric, Industrial",other,NA
+2012,Industrial,Solar,49809.984000000004,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2012,Industrial,Wind,46554.048,"Wind, Industrial",other,NA
+2012,Residential,Geothermal,50510.976,"Geothermal, Residential",other,NA
+2012,Residential,Solar,52367.748,"Solar, Residential","Solar, Residential","Solar, Residential"
+2012,Transportation,Geothermal,54416.688,"Geothermal, Transportation",other,NA
+2012,Transportation,Hydroelectric,151017.296,"Hydroelectric, Transportation",other,NA
+2012,Transportation,Solar,50955.972,"Solar, Transportation",other,NA
+2012,Transportation,Wind,110834.832,"Wind, Transportation",other,NA
+2013,Commercial,Geothermal,52699.085999999996,"Geothermal, Commercial",other,NA
+2013,Commercial,Hydroelectric,30909.92,"Hydroelectric, Commercial",other,NA
+2013,Commercial,Solar,53387.873999999996,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2013,Commercial,Wind,46294,"Wind, Commercial",other,NA
+2013,Industrial,Geothermal,52141.085999999996,"Geothermal, Industrial",other,NA
+2013,Industrial,Hydroelectric,32475.728,"Hydroelectric, Industrial",other,NA
+2013,Industrial,Solar,52205.994,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2013,Industrial,Wind,46283.248,"Wind, Industrial",other,NA
+2013,Residential,Geothermal,53415.486,"Geothermal, Residential",other,NA
+2013,Residential,Solar,55182.293999999994,"Solar, Residential","Solar, Residential","Solar, Residential"
+2013,Transportation,Geothermal,57408.102,"Geothermal, Transportation",other,NA
+2013,Transportation,Hydroelectric,152278.112,"Hydroelectric, Transportation",other,NA
+2013,Transportation,Solar,54887.598,"Solar, Transportation",other,NA
+2013,Transportation,Wind,123086.512,"Wind, Transportation",other,NA
+2014,Commercial,Geothermal,54075.396,"Geothermal, Commercial",other,NA
+2014,Commercial,Hydroelectric,34281.112,"Hydroelectric, Commercial",other,NA
+2014,Commercial,Solar,54148.35,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2014,Commercial,Wind,46136.759999999995,"Wind, Commercial",other,NA
+2014,Industrial,Geothermal,53517.396,"Geothermal, Industrial",other,NA
+2014,Industrial,Hydroelectric,34848.808000000005,"Hydroelectric, Industrial",other,NA
+2014,Industrial,Solar,52655.538,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2014,Industrial,Wind,46112.28,"Wind, Industrial",other,NA
+2014,Residential,Geothermal,54791.795999999995,"Geothermal, Residential",other,NA
+2014,Residential,Solar,56198.477999999996,"Solar, Residential","Solar, Residential","Solar, Residential"
+2014,Transportation,Geothermal,58801.835999999996,"Geothermal, Transportation",other,NA
+2014,Transportation,Hydroelectric,152056.504,"Hydroelectric, Transportation",other,NA
+2014,Transportation,Solar,58184.058,"Solar, Transportation",other,NA
+2014,Transportation,Wind,128937.384,"Wind, Transportation",other,NA
+2015,Commercial,Geothermal,53731.599,"Geothermal, Commercial",other,NA
+2015,Commercial,Hydroelectric,36115.332,"Hydroelectric, Commercial",other,NA
+2015,Commercial,Solar,53136.672,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2015,Commercial,Wind,44854.628000000004,"Wind, Commercial",other,NA
+2015,Industrial,Geothermal,53173.599,"Geothermal, Industrial",other,NA
+2015,Industrial,Hydroelectric,36730.212,"Hydroelectric, Industrial",other,NA
+2015,Industrial,Solar,51582.3,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2015,Industrial,Wind,44825.54,"Wind, Industrial",other,NA
+2015,Residential,Geothermal,54447.999,"Geothermal, Residential",other,NA
+2015,Residential,Solar,55703.976,"Solar, Residential","Solar, Residential","Solar, Residential"
+2015,Transportation,Geothermal,58362.495,"Geothermal, Transportation",other,NA
+2015,Transportation,Hydroelectric,146870.14800000002,"Hydroelectric, Transportation",other,NA
+2015,Transportation,Solar,59292.744,"Solar, Transportation",other,NA
+2015,Transportation,Wind,130035.524,"Wind, Transportation",other,NA
+2016,Commercial,Geothermal,60657.606,"Geothermal, Commercial",other,NA
+2016,Commercial,Hydroelectric,42983.576,"Hydroelectric, Commercial",other,NA
+2016,Commercial,Solar,58925.340000000004,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2016,Commercial,Wind,48975.208,"Wind, Commercial",other,NA
+2016,Industrial,Geothermal,60099.606,"Geothermal, Industrial",other,NA
+2016,Industrial,Hydroelectric,43449.8,"Hydroelectric, Industrial",other,NA
+2016,Industrial,Solar,57396.564,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2016,Industrial,Wind,48948.28,"Wind, Industrial",other,NA
+2016,Residential,Geothermal,61374.006,"Geothermal, Residential",other,NA
+2016,Residential,Solar,62516.952000000005,"Solar, Residential","Solar, Residential","Solar, Residential"
+2016,Transportation,Geothermal,65208.15,"Geothermal, Transportation",other,NA
+2016,Transportation,Hydroelectric,160905.992,"Hydroelectric, Transportation",other,NA
+2016,Transportation,Solar,68500.512,"Solar, Transportation",other,NA
+2016,Transportation,Wind,149415.88,"Wind, Transportation",other,NA
+2017,Commercial,Geothermal,69019.824,"Geothermal, Commercial",other,NA
+2017,Commercial,Hydroelectric,49438.124,"Hydroelectric, Commercial",other,NA
+2017,Commercial,Solar,65932.005,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2017,Commercial,Wind,56181.164,"Wind, Commercial",other,NA
+2017,Industrial,Geothermal,68461.824,"Geothermal, Industrial",other,NA
+2017,Industrial,Hydroelectric,49943.468,"Hydroelectric, Industrial",other,NA
+2017,Industrial,Solar,64008.453,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2017,Industrial,Wind,56154.716,"Wind, Industrial",other,NA
+2017,Residential,Geothermal,69736.224,"Geothermal, Residential",other,NA
+2017,Residential,Solar,70173.309,"Solar, Residential","Solar, Residential","Solar, Residential"
+2017,Transportation,Geothermal,73593.012,"Geothermal, Transportation",other,NA
+2017,Transportation,Hydroelectric,181429.292,"Hydroelectric, Transportation",other,NA
+2017,Transportation,Solar,80697.117,"Solar, Transportation",other,NA
+2017,Transportation,Wind,168475.00400000002,"Wind, Transportation",other,NA
+2018,Commercial,Geothermal,70702.113,"Geothermal, Commercial",other,NA
+2018,Commercial,Hydroelectric,53304.764,"Hydroelectric, Commercial",other,NA
+2018,Commercial,Solar,67009.26,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2018,Commercial,Wind,56173.916000000005,"Wind, Commercial",other,NA
+2018,Industrial,Geothermal,70133.169,"Geothermal, Industrial",other,NA
+2018,Industrial,Hydroelectric,53707.58,"Hydroelectric, Industrial",other,NA
+2018,Industrial,Solar,64505.244,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2018,Industrial,Wind,56140.172000000006,"Wind, Industrial",other,NA
+2018,Residential,Geothermal,71407.569,"Geothermal, Residential",other,NA
+2018,Residential,Solar,71575.932,"Solar, Residential","Solar, Residential","Solar, Residential"
+2018,Transportation,Geothermal,75204.129,"Geothermal, Transportation",other,NA
+2018,Transportation,Hydroelectric,180434.636,"Hydroelectric, Transportation",other,NA
+2018,Transportation,Solar,84356.54400000001,"Solar, Transportation",other,NA
+2018,Transportation,Wind,175132.892,"Wind, Transportation",other,NA
+2019,Commercial,Geothermal,72384.564,"Geothermal, Commercial",other,NA
+2019,Commercial,Hydroelectric,56857.979999999996,"Hydroelectric, Commercial",other,NA
+2019,Commercial,Solar,67906.785,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2019,Commercial,Wind,55712.812,"Wind, Commercial",other,NA
+2019,Industrial,Geothermal,71684.94,"Geothermal, Industrial",other,NA
+2019,Industrial,Hydroelectric,57219.227999999996,"Hydroelectric, Industrial",other,NA
+2019,Industrial,Solar,65194.113,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2019,Industrial,Wind,55679.02,"Wind, Industrial",other,NA
+2019,Residential,Geothermal,72959.34,"Geothermal, Residential",other,NA
+2019,Residential,Solar,73242.489,"Solar, Residential","Solar, Residential","Solar, Residential"
+2019,Transportation,Geothermal,76352.376,"Geothermal, Transportation",other,NA
+2019,Transportation,Hydroelectric,179304.012,"Hydroelectric, Transportation",other,NA
+2019,Transportation,Solar,87037.833,"Solar, Transportation",other,NA
+2019,Transportation,Wind,181989.38799999998,"Wind, Transportation",other,NA
+2020,Commercial,Geothermal,77370.393,"Geothermal, Commercial",other,NA
+2020,Commercial,Hydroelectric,64507.304,"Hydroelectric, Commercial",other,NA
+2020,Commercial,Solar,71681.745,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2020,Commercial,Wind,57095.672,"Wind, Commercial",other,NA
+2020,Industrial,Geothermal,76670.58899999999,"Geothermal, Industrial",other,NA
+2020,Industrial,Hydroelectric,64838.84,"Hydroelectric, Industrial",other,NA
+2020,Industrial,Solar,68567.781,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2020,Industrial,Wind,57284.888,"Wind, Industrial",other,NA
+2020,Residential,Geothermal,77944.989,"Geothermal, Residential",other,NA
+2020,Residential,Solar,77742.705,"Solar, Residential","Solar, Residential","Solar, Residential"
+2020,Transportation,Geothermal,81396.021,"Geothermal, Transportation",other,NA
+2020,Transportation,Hydroelectric,184035.848,"Hydroelectric, Transportation",other,NA
+2020,Transportation,Solar,95389.761,"Solar, Transportation",other,NA
+2020,Transportation,Wind,199001.432,"Wind, Transportation",other,NA
+2021,Commercial,Geothermal,81754.524,"Geothermal, Commercial",other,NA
+2021,Commercial,Hydroelectric,73900.452,"Hydroelectric, Commercial",other,NA
+2021,Commercial,Solar,74211.579,"Solar, Commercial","Solar, Commercial","Solar, Commercial"
+2021,Commercial,Wind,57085.236000000004,"Wind, Commercial",other,NA
+2021,Industrial,Geothermal,81038.088,"Geothermal, Industrial",other,NA
+2021,Industrial,Hydroelectric,74195.46,"Hydroelectric, Industrial",other,NA
+2021,Industrial,Solar,70493.535,"Solar, Industrial","Solar, Industrial","Solar, Industrial"
+2021,Industrial,Wind,57422.340000000004,"Wind, Industrial",other,NA
+2021,Residential,Geothermal,82312.488,"Geothermal, Residential",other,NA
+2021,Residential,Solar,81063.675,"Solar, Residential","Solar, Residential","Solar, Residential"
+2021,Transportation,Geothermal,85856.832,"Geothermal, Transportation",other,NA
+2021,Transportation,Hydroelectric,182866.02,"Hydroelectric, Transportation",other,NA
+2021,Transportation,Solar,105193.143,"Solar, Transportation",other,NA
+2021,Transportation,Wind,216454.356,"Wind, Transportation",other,NA

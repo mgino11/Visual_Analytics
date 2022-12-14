@@ -1,12 +1,22 @@
 ---
-title: "Final_Project_608"
+title: "Solar Energy"
+subtitle: "Data Visualization 608"
 author: "Maria A Ginorio"
 date: "11/12/2022"
-output: html_document
+output: 
+  html_document:
+    df_print: paged
+    code_folding: hide
+    toc: true
+    toc_float: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+## Load Packages
+
+As usual, it is first necessary to load some packages before building the figure. Today's chart is going to use the help of ggrepel and ggtext. ggrepel will make it extremely easy to automatically position labels and ggtext is going to make it possible to use annotations that mix normal text with italic and bold text
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = T)
 
 # Data analysis libraries
 library(tidyverse)
@@ -14,6 +24,303 @@ library(magrittr) # extended pipe functionality
 library(lubridate) # dealing with date objects
 library(readxl) # for reading Excel files
 library(skimr)
+```
+
+```{r packages, warning=FALSE, message=FALSE}
+
+# Visualization libraries
+library(ggrepel) # for neater text labels
+library(gghighlight) # for easier highlighting
+library(extrafont) # for... extra fonts
+library(gridExtra) # for combining plots
+library(geofacet) # for making facets 
+library(ggridges)
+library(ggtext)
+library(showtext)
+
+font_add_google("Lato")
+showtext_auto()
+
+```
+
+## Load & Prepare Dataset
+
+First, we'll take a look at data on solar photovoltaic energy consumed by the commercial, industrial, power and residential sectors, courtesy of the U.S. Energy Information Administration's [State Energy Data Systems (SEDS) database](https://www.eia.gov/state/seds/).
+
+We start by utilizing the data sets obtained by SEDS (U.S Energy Information Administration) [SEDS](https://www.eia.gov/renewable/data.php). We will utilize 3 datasets related to the Renewable Energy Consumption by sector section.
+
+-   Dataset 1: Residential
+
+-   Dataset 3: Commercial
+
+-   Dataset 3: Industrial
+
+Then we will proceed to change the format of the data to a longer format using the tidyverse package:
+
+```{r dataset , warning=FALSE, message=FALSE}
+processed_renewals_energy <- read_csv("processed_renewals_energy.csv")
+```
+
+```{r}
+# df1 <- Processed_Renewable_Sector %>% 
+#   rename(Year = `Annual Total`) %>% 
+#   mutate(across(everything(), na_if, "Not Available")) %>% 
+#   mutate(across(everything(), na_if, "No Data Reported"))
+
+# df1 <- df1 %>% 
+#   pivot_longer(
+#     cols = starts_with("Geothermal"),
+#     names_to = "Geothermal",
+#     values_to = "BTUs",
+#     names_prefix = "Geothermal",
+#     values_drop_na = F 
+#   )
+
+# df1 <- df1 %>% 
+#   pivot_longer(
+#     cols = starts_with("Wind"),
+#     names_to = "Wind",
+#     values_to = "BTUs_3",
+#     names_prefix = "Wind",
+#     values_drop_na = F 
+#   )
+
+# df1 <- df1 %>% 
+#   mutate(across(c(`Hydroelectric Commercial`), as.numeric)) %>% 
+#   pivot_longer(
+#     cols = starts_with("Hydroelectric"),
+#     names_to = "Hydroelectric",
+#     values_to = "BTUs_4",
+#     names_prefix = "Hydroelectric",
+#     values_drop_na = F 
+#   )
+
+# df2 <- df1 %>% 
+#   pivot_longer(
+#     cols = c("Hydroelectric","Wind","Solar", "Geothermal" ),
+#     names_to = "energy_type",
+#     values_to = "source",
+#     values_drop_na = F 
+#   )
+
+# df2 <- df1 %>% 
+#   pivot_longer(
+#     cols = c("Hydroelectric","Wind","Solar", "Geothermal" ),
+#     names_to = "energy_type",
+#     values_to = "source",
+#     values_drop_na = F 
+#   )
+
+# df2 <- df2 %>% 
+#   mutate(across(c(BTUs, BTUs_2, BTUs_3), as.numeric)) %>% 
+#   pivot_longer(
+#     cols = BTUs:BTUs_4,
+#     names_to = "data_no",
+#     values_to = "data",
+#     values_drop_na = F 
+#   )
+
+# pgen<- df2 %>% 
+#   select(-data_no, -`Wood Residential`) %>% 
+#   mutate(data = replace_na(data, 0))
+
+#write_csv(pgen, "processed_renewals_energy.csv")
+
+```
+
+### Preprocessed Data
+
+```{r, message=FALSE, warning=FALSE}
+#write_csv(gen2, "gen2.csv")
+processed_data <- read_csv("gen2.csv")
+head(processed_data)
+```
+
+Next is Important to determine the highlights for our variables so we can obtain the information we are looking for. Its important that our plot shows the sources that correspond to the category solar. We make the modifications using dplyr package.
+
+```{r highlights, warning=FALSE}
+highlights <- c("Solar, Residential", "Solar, Commercial", "Solar, Industrial")
+```
+
+```{r gen2, warning=FALSE, message=FALSE}
+
+gen2 <- processed_renewals_energy %>% 
+  group_by(Year, source, energy_type) %>%
+  summarize(total_btu = sum(data)) %>% 
+  mutate(full_source = paste0(energy_type, ", ", source)) %>%
+  mutate(
+    highlight_col = ifelse(full_source %in% 
+                             highlights, full_source, "other"),
+    highlight_col = as.factor(highlight_col)) %>% 
+  mutate(
+    highlight_col = fct_relevel(highlight_col, "other", after = Inf)) %>% 
+  ungroup()
+```
+
+```{r namelab, message=FALSE, warning=FALSE}
+gen2 <- gen2 %>% 
+  group_by(Year, highlight_col) %>% 
+  mutate(
+    name_lab = if_else(
+      highlight_col %in% highlights, highlight_col, factor(NA))
+  ) %>% 
+ungroup()
+```
+
+## Theme Definition
+
+In this occasion, the theme is defined before creating the plot. the `element_markdown()` in `plot.subtitle()` above? That function comes with the `ggtext()` package and makes it possible to use markdown syntax to format the text. It's like magic!
+
+```{r theme2}
+
+# This theme extends the 'theme_minimal' that comes with ggplot2.
+# The "Lato" font is used as the base font. This is similar
+# to the original font in Cedric's work, Avenir Next Condensed.
+theme_set(theme_minimal(base_family = "Lato"))
+
+
+theme_update(
+  # Remove title for both x and y axes
+  axis.title = element_text(),
+  # Axes labels are grey
+  axis.text = element_text(color = "grey40"),
+  # The size of the axes labels are different for x and y.
+  axis.text.x = element_text(size = 20, margin = margin(t = 5)),
+  axis.text.y = element_text(size = 17, margin = margin(r = 5)),
+  # Also, the ticks have a very light grey color
+  axis.ticks = element_line(color = "grey91", linewidth = .5),
+  # The length of the axis ticks is increased.
+  axis.ticks.length.x = unit(1.3, "lines"),
+  axis.ticks.length.y = unit(.7, "lines"),
+  # Remove the grid lines that come with ggplot2 plots by default
+  panel.grid = element_blank(),
+  # Customize margin values (top, right, bottom, left)
+  plot.margin = margin(20, 40, 20, 40),
+  # Use a light grey color for the background of both the plot and the panel
+  plot.background = element_rect(fill = "grey98", color = "grey98"),
+  panel.background = element_rect(fill = "grey98", color = "grey98"),
+  # Customize title appearence
+  plot.title = element_text(
+    color = "grey10", 
+    size = 20, 
+    face = "bold",
+    margin = margin(t = 15)
+  ),
+  # Customize subtitle appearence
+  plot.subtitle = element_markdown(
+    color = "grey30", 
+    size = 16,
+    lineheight = 1.35,
+    margin = margin(t = 15, b = 40)
+  ),
+  # Title and caption are going to be aligned
+  plot.title.position = "plot",
+  plot.caption.position = "plot",
+  plot.caption = element_text(
+    color = "grey30", 
+    size = 13,
+    lineheight = 1.2, 
+    hjust = 0,
+    margin = margin(t = 40) # Large margin on the top of the caption.
+  ),
+  # Remove legend
+  legend.position = "right"
+)
+
+```
+
+## Basic Chart
+
+Today's chart is a lineplot that visualizes the consumption changes (in BTU's) of a Solar Energy based on a time frame from 1960 - 2000. The full_source in the vector `highlights` have different colors to stand out from the rest and make it easier to track their evolution along time.
+
+```{r plt1}
+plt <- ggplot(
+  gen2 %>% filter(highlight_col != "other"),
+  aes(Year, total_btu, 
+             group = full_source)) + 
+  
+  # Geometric annotations that play the role of grid lines
+  geom_vline(
+    xintercept = seq(1960, 2020, by = 5),
+    color = "grey91", 
+    linewidth = .6
+  ) + 
+  geom_segment(
+    data = tibble(y = seq(0, 100000, by = 10), x1 = 1960, x2 = 2020),
+    aes(x = x1, xend = x2, y = y, yend = y),
+    inherit.aes = FALSE,
+    color = "grey91",
+    linewidth = .6
+    #change log 10 for by 100 if it doenst work
+  ) +
+  geom_line(
+    data = gen2 %>% filter(highlight_col == "other"),
+    color = "grey75",
+    linewidth = .6,
+    alpha = .5,
+   ) + 
+  ## Lines for the highlighted countries.
+  # It's important to put them after the grey lines
+  # so the colored ones are on top
+  geom_line(
+    aes(color = highlight_col ),
+    linewidth = .9,
+    na.rm = F,
+    orientation = NA,
+  )
+  
+```
+
+```{r}
+plt
+```
+
+## Add Labels
+
+Although colors are a tremendous help, they don't reveal which country the lines represent. Wouldn't it be nice to have a label on the end of each line that tells which country it represents?
+
+It is pretty challenging to add many labels on a plot since labels tend to overlap each other, making the figure unreadable. Fortunately, the `ggrepel` package is here to help us. It provides an algorithm that will automatically place the labels for us. Let's do it!
+
+```{r, warning=FALSE, message=FALSE}
+plt <- plt + 
+  geom_text_repel(
+    aes(color = highlight_col, label = name_lab), data = gen2,
+    family = "Lato",
+    fontface = "bold",
+    size = 15,
+    direction = "y",
+    xlim = c(2019, NA),
+    hjust = 0,
+    segment.size = .7,
+    segment.alpha = .5,
+    segment.linetype = "dotted",
+    box.padding = .4,
+    segment.curvature = -0.1,
+    segment.ncp = 3,
+    segment.angle = 20,
+    show.legend = F
+  ) + 
+  ## coordinate system + scales
+  coord_cartesian(
+    clip = "off",
+    ylim = c(10, 200000)
+  ) +
+  scale_x_continuous(
+    expand = c(0, 0),
+    limits = c(1960, 2023.5), 
+    breaks = seq(1960, 2020, by = 10)
+  ) +
+  scale_y_continuous(
+    expand = c(0, 0),
+    breaks = c(1000, 10000, 100000, 200000),
+    labels = c("1K","10K","100K", "200K")
+  )
+
+#ggsave("solar_consumption.png")
+```
+
+```{r plt2, warning=FALSE, message=FALSE}
+plt
 ```
 
 ## Solar Light Consumption
@@ -26,100 +333,14 @@ Another reason for the growth of renewable energy is the increasing concern abou
 
 The growth of renewable energy is also being driven by government policies. Many governments are setting targets for the use of renewable energy, and providing financial incentives, such as subsidies and tax breaks, to encourage the use of renewable energy. The use of renewable energy is expected to continue to grow in the future. This is due to the falling cost of renewable energy, the increasing concerns about the environment, and the support of government policies.
 
-## Data Documentation
-
-We start by utilizing the data sets obtained by SEDS (U.S Energy Information Administration) [SEDS](https://www.eia.gov/renewable/data.php). We will utilize 3 datasets related to the Renewable Energy Consumption by sector section.
-
--   Dataset 1: Residential
-
--   Dataset 3: Commercial
-
--   Dataset 3: Industrial
-
-Then we will proceed to change the format of the data to a longer format using the tidyverse package.
-
-```{r data2}
-df1 <- Processed_Renewable_Sector %>% 
-  rename(Year = `Annual Total`) %>% 
-  mutate(across(everything(), na_if, "Not Available")) %>% 
-  mutate(across(everything(), na_if, "No Data Reported"))
-
-
+```{r plt3}
+plt <- plt + 
+  labs(
+    title = "What has been the evolution\nof Solar Energy Consumption since 1960",
+    subtitle = "Solar power is more affordable,accessible, and prevalent in the United States than ever before",
+    caption = "Visualization by Maria A Ginorio \n • Data source: SEDS (U.S. Energy Information Administration) ")
 ```
 
-```{r}
-df1 <- df1 %>% 
-  pivot_longer(
-    cols = starts_with("Geothermal"),
-    names_to = "Geothermal",
-    values_to = "BTUs",
-    names_prefix = "Geothermal",
-    values_drop_na = F 
-  )
-```
-
-```{r}
-df1 <- df1 %>% 
-  pivot_longer(
-    cols = starts_with("Solar"),
-    names_to = "Solar",
-    values_to = "BTUs_2",
-    names_prefix = "Solar",
-    values_drop_na = F 
-  )
-  
-```
-
-```{r}
-df1 <- df1 %>% 
-  pivot_longer(
-    cols = starts_with("Wind"),
-    names_to = "Wind",
-    values_to = "BTUs_3",
-    names_prefix = "Wind",
-    values_drop_na = F 
-  )
-```
-
-```{r}
-df1 <- df1 %>% 
-  mutate(across(c(`Hydroelectric Commercial`), as.numeric)) %>% 
-  pivot_longer(
-    cols = starts_with("Hydroelectric"),
-    names_to = "Hydroelectric",
-    values_to = "BTUs_4",
-    names_prefix = "Hydroelectric",
-    values_drop_na = F 
-  )
-```
-
-```{r}
-df2 <- df1 %>% 
-  pivot_longer(
-    cols = c("Hydroelectric","Wind","Solar", "Geothermal" ),
-    names_to = "energy_type",
-    values_to = "source",
-    values_drop_na = F 
-  )
-```
-
-```{r}
-df2 <- df2 %>% 
-  mutate(across(c(BTUs, BTUs_2, BTUs_3), as.numeric)) %>% 
-  pivot_longer(
-    cols = BTUs:BTUs_4,
-    names_to = "data_no",
-    values_to = "data",
-    values_drop_na = F 
-  )
-```
-
-```{r}
-pgen<- df2 %>% 
-  select(-data_no, -`Wood Residential`) %>% 
-  mutate(data = replace_na(data, 0))
-```
-
-```{r}
-#write_csv(pgen, "processed_renewals_energy.csv")
+```{r, message=FALSE, warning=FALSE}
+plt
 ```
